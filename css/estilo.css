@@ -1,0 +1,25 @@
+#ft1fondo{
+    background-color: darkgreen;
+    color: white;
+    padding: 30px 30px 30px 30px;
+}
+
+#ft1textfondo{
+    background-color: white;
+    padding: 45px 0px 45px 0px;
+}
+
+#plantacrecerft1{
+    position: absolute;
+    left: 800px;
+    top: 1415px;
+}
+@keyframes mover{
+    0%{
+       width: 100px;
+    }
+    100%{
+        width: 120px;
+    }
+
+}
