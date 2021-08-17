@@ -30,13 +30,33 @@ window.addEventListener('scroll',function () {
     //FOTOGRAMA 1 OBJ 2
     if((positionPlantacreceUnoFot1 < tamanioIni) && (positionPlantacreceUnoFot1 > tamanioFin)){
         if(positionPlantacreceUnoFot1 > mitadPosition){
-            let heightRelative =  (tamanioIni - positionPlantacreceUnoFot1) * 0.2;
-            plantacreceunoFot1.style.height = 50 + heightRelative + 'px';
+            let heightRelative =  (tamanioIni - positionPlantacreceUnoFot1) * 0.15;
+            plantacreceunoFot1.style.height = 40 + heightRelative + 'px';
         }else {
-            let heightRelativex = (positionPlantacreceUnoFot1 - tamanioFin) * 0.2;
-            plantacreceunoFot1.style.height = 50 + heightRelativex + 'px';
+            let heightRelativex = (positionPlantacreceUnoFot1 - tamanioFin) * 0.15;
+            plantacreceunoFot1.style.height = 40 + heightRelativex + 'px';
         }
     }
+
+
+    let plantacreceuno2Fot1 = this.document.getElementById('plantacrecer2ft1');
+    let positionPlantacreceDosFot1 = plantacreceuno2Fot1.getBoundingClientRect().top;
+
+
+       //FOTOGRAMA 1 OBJ 3
+       if((positionPlantacreceDosFot1 < tamanioIni) && (positionPlantacreceDosFot1 > tamanioFin)){
+           if(positionPlantacreceDosFot1 > mitadPosition){
+               let heightRelative =  (tamanioIni - positionPlantacreceDosFot1) * 0.15;
+               plantacreceuno2Fot1.style.height = 40 + heightRelative + 'px';
+           }else {
+               let heightRelativex = (positionPlantacreceDosFot1 - tamanioFin) * 0.15;
+               plantacreceuno2Fot1.style.height = 40 + heightRelativex + 'px';
+           }
+       }
+
+
+
+
 
 })
 

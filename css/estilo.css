@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
 #ft1fondo{
     background-color: #00FF7F;
     color: white;
@@ -5,15 +11,31 @@
 }
 
 #ft1textfondo{
-    background-color: white;
     padding: 45px 0px 45px 0px;
+}
+
+
+
+#imagenft1{
+    position: relative;
+    display: inline-block;
 }
 
 #plantacrecerft1{
     position: absolute;
-    left: 800px;
-    top: 1415px;
+    top: 52%;
+    left: 82%;
+    /*transform: translate(-50%, -50%);*/
 }
+
+#plantacrecer2ft1{
+    position: absolute;
+    top: 69.5%;
+    left: 81.5%;
+    /*transform: translate(-50%, -50%);*/
+}
+
+
 @keyframes mover{
     0%{
        width: 100px;
@@ -22,4 +44,90 @@
         width: 120px;
     }
 
+}
+/* FOTOGRAMA 2 */
+#imagenft2{
+    position: relative;
+    display: inline-block;
+}
+
+#plantacrecer1ft2{
+    position: absolute;
+    top: 76%;
+    left: 58%;
+}
+/******************************************************/
+/********************* FOTOGRAMA 3 ********************/
+/******************************************************/
+#imagenft3{
+    position: relative;
+    display: inline-block;
+}
+#cuerpoFot3{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    z-index: 2;
+}
+#CarritoFot3{
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+#CostalesFot3{
+    position: absolute;
+    top: 62%;
+    left: 45%;
+}
+#ManoUnoFot3{
+    position: absolute;
+    top: 27.3%;
+    left: 62%;
+    z-index: 1;
+}
+#ManoDosFot3{
+    position: absolute;
+    top: 27.3%;
+    left: 57%;
+    z-index: 3;
+}
+
+/******************************************************/
+/********************* FOTOGRAMA 4 ********************/
+/******************************************************/
+#imagenft4{
+    position: relative;
+    display: inline-block;
+}
+#TallosFot4{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+#Planta1Fot4{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    z-index: 2;
+}
+#Planta2Fot4{
+    position: absolute;
+    top: 15.7%;
+    left: 64.5%;
+    z-index: 1;
+}
+#Planta3AFot4{
+    position: absolute;
+    top: 53%;
+    left: 49.6%;
+}
+#Planta3BFot4{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+#Planta4AFot4{
+    position: absolute;
+    top: 70.3%;
+    left: 78.7%;
 }
