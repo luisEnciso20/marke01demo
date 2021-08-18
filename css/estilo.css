@@ -141,15 +141,19 @@
 }
 #Planta1Fot4{
     position: absolute;
-    max-width: 100%;
+    top: 189px;
+    left: 205px;
+    z-index: 2;
+    /*
+    position: absolute;
     top: 34.5%;
     left: 35.5%;
     z-index: 2;
+     */
 }
 
 #TallosFot4{
     position: absolute;
-    max-width: 100%;
     top: 50%;
     left: 11%;
 }
