@@ -136,14 +136,24 @@
     }
 }
 */
-#contra img{
-
+#contra{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    display: block;
+}
+#TallosFot4{
+    position:absolute;
+    left:11%;
+    top:48%;
+    max-width: 80%;
 }
 #Planta1Fot4{
-    position: absolute;
-    top: 189px;
-    left: 205px;
-    z-index: 2;
+    position:absolute;
+    left:35.4%;
+    top:32.5%;
+    max-width: 80%;
     /*
     position: absolute;
     top: 34.5%;
@@ -151,14 +161,6 @@
     z-index: 2;
      */
 }
-
-#TallosFot4{
-    position: absolute;
-    top: 50%;
-    left: 11%;
-}
-
-
 #Planta2Fot4{
     position: absolute;
     top: 16%;
