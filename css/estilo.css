@@ -137,19 +137,21 @@
 }
 */
 #contra{
+    display: inline-block;
     max-width: 100%;
+    margin: 0 auto;
 }
 #TallosFot4{
     position:absolute;
     left:11%;
     top:48%;
-    max-width: 80%;
+    max-width: 70%;
 }
 #Planta1Fot4{
     position:absolute;
-    left:35.4%;
-    top:32.5%;
-    max-width: 80%;
+    left:31.8%;
+    top:27%;
+    max-width: 70%;
     /*
     position: absolute;
     top: 34.5%;
