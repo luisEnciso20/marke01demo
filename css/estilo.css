@@ -123,9 +123,9 @@
     display: inline-block;
 }
 #TallosFot44{
-    position: relative;
+    position: absolute;
     top: 50%;
-    left: 10%;
+    left: 12%;
 }
 #Planta1Fot44{
     position: absolute;
@@ -139,7 +139,11 @@
     left: 45%;
     z-index: 1;
 }
-
+#Planta3AFot44{
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
 
 
 
