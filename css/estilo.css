@@ -158,7 +158,12 @@
 }
 
 
-
+@media only screen and (max-width: 1200px) {
+    #micanvas {
+        width: 95%;
+        height: 95%;
+    }
+}
 
 
 #TallosFot4{
