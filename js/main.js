@@ -1,3 +1,19 @@
+var micanvas = document.getElementById("micanvas");
+var ctx = micanvas.getContext("2d");
+var miimagen = new Image();
+var miimagen2 = new Image();
+miimagen2.src="img/fot4/fot4_ESTATICO.png";
+miimagen.src="img/fot4/fot4_planta1.png";
+
+
+miimagen2.onload = function (){
+    ctx.drawImage(miimagen2,55,290);
+}
+miimagen.onload = function (){
+    ctx.drawImage(miimagen,196,206);
+}
+
+
 //plantaunoFot1.style.height = 30 + heightRelative + 'px';
 //plantaunoFot1.style.animation = 'mover 2s ease-out';
 //plantaunoFot1.style.animationFillMode = 'forwards';
