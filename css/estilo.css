@@ -157,14 +157,18 @@
     left: 20%;
 }
 
-
+#micanvas{
+    border: solid 1px blue;
+    width: 100%;
+}
+/*
 @media only screen and (max-width: 1200px) {
     #micanvas {
         width: 95%;
         height: 95%;
     }
 }
-
+*/
 
 #TallosFot4{
     position: absolute;
