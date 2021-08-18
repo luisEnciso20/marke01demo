@@ -15,6 +15,29 @@
 }
 
 
+.textoCudadrado{
+    font-size: 10pt;
+}
+.tituloCuadrado{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#contenedor{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+.cuadrado{
+    width: 550px;
+    height: 600px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+
 
 #imagenft1{
     position: relative;
@@ -99,35 +122,63 @@
     position: relative;
     display: inline-block;
 }
+#TallosFot44{
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+#Planta1Fot44{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    z-index: 2;
+}
+#Planta2Fot44{
+    position: absolute;
+    top: 13.5%;
+    left: 45%;
+    z-index: 1;
+}
+
+
+
+
+
+
 #TallosFot4{
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 25%;
 }
+
 #Planta1Fot4{
     position: absolute;
     top: 35%;
-    left: 60%;
+    left: 46%;
     z-index: 2;
 }
 #Planta2Fot4{
     position: absolute;
-    top: 15.7%;
-    left: 64.5%;
+    top: 16%;
+    left: 52%;
     z-index: 1;
 }
 #Planta3AFot4{
     position: absolute;
     top: 53%;
-    left: 49.6%;
+    left: 31.6%;
 }
 #Planta3BFot4{
     position: absolute;
     top: 70%;
     left: 47%;
+    z-index: -1;
 }
 #Planta4AFot4{
     position: absolute;
     top: 70.3%;
     left: 78.7%;
+    z-index: -1;
 }
+
+
