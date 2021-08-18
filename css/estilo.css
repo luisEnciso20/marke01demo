@@ -127,6 +127,13 @@
     top: 50%;
     left: 12%;
 }
+@media only screen and (max-width: 1300px) {
+    #TallosFot44 {
+        width: 101%;
+    }
+}
+
+
 #Planta1Fot44{
     position: absolute;
     top: 35%;
