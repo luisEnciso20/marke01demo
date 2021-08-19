@@ -3,6 +3,17 @@
     src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
     url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*
+        display: flex;
+    align-items: center;
+     */
+}
 
 #ft1fondo{
     background-color: #00FF7F;
@@ -28,7 +39,21 @@
     margin: 0 auto;
     font-size: 0;
     text-align: center;
+    display: grid;
+    grid-auto-columns: 510px 510px;
 }
+
+#contenedor div{
+
+}
+
+#contra{
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .cuadrado{
     width: 550px;
     height: 600px;
@@ -36,8 +61,6 @@
     margin: 0px;
     font-size: 1rem;
 }
-
-
 
 #imagenft1{
     position: relative;
@@ -136,12 +159,6 @@
     }
 }
 */
-#contra{
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
@@ -225,3 +242,13 @@
 }
 
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 510px 510px;
+    justify-content: center;
+}
+
+.grid-container div{
+    background-color: white;
+    border: 0px;
+}
