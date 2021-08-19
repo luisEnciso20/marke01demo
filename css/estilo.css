@@ -200,6 +200,10 @@ body{
         background-color: pink;
     }
 }
+
+
+
+
 #TallosFot4{
     display: inline-block;
     position:absolute;
@@ -226,12 +230,14 @@ body{
     position: absolute;
     top: 49.7%;
     left: 18.5%;
+    max-width: 80%;
     z-index: 1;
 }
 #Planta3BFot4{
     position: absolute;
     top: 65.5%;
     left: 13.7%;
+    max-width: 80%;
     z-index: 1;
 }
 #Planta4AFot4{
@@ -240,6 +246,19 @@ body{
     left: 67%;
     z-index: 1;
 }
+/******************************************************/
+/********************* FOTOGRAMA 5 ********************/
+/******************************************************/
+
+
+
+
+
+
+
+
+
+
 
 
 .grid-container{
@@ -256,4 +275,9 @@ body{
     grid-template-columns: 510px 510px;
     justify-content: center;
     background-color: blueviolet;
+}
+
+.img-puestas{
+    position: absolute;
+    max-width: 80%;
 }
