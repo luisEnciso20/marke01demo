@@ -142,19 +142,45 @@
     max-width: 100%;
     margin: 0 auto;
 }
-@media only screen and (max-width: 700px) {
-    #contra {
-        background-color: blueviolet;
-        width: 20%;
-        height: 20%;
+
+/* Para px */
+@media only screen and (max-width: 1500px) and (min-width: 981px) {
+    #contra{
+        background-color: orange;
     }
-    #TallosFot4{
-        left:11%;
-        top:60%;
-        max-width: 40%;
+}
+/* Para 960px */
+@media only screen and (max-width: 980px) and (min-width: 821px) {
+    #contra{
+        background-color: purple;
     }
-    #Planta1Fot4{
-        max-width: 40%;
+}
+
+/* Para 800px */
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+    #contra{
+        background-color: red;
+    }
+}
+
+/* Para 600px */
+@media only screen and (max-width: 620px) and (min-width: 501px) {
+    #contra{
+        background-color: yellow;
+    }
+}
+
+/* Para 480px */
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    #contra{
+        background-color: green;
+    }
+}
+
+/* Para 320px */
+@media only screen and (max-width: 340px) and (min-width: 5px)  {
+    #contra{
+        background-color: pink;
     }
 }
 #TallosFot4{
