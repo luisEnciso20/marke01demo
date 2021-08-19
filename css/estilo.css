@@ -205,23 +205,21 @@ body{
 
 
 #TallosFot4{
-    display: inline-block;
     position:absolute;
     left:11%;
     top:48%;
     max-width: 80%;
 }
-#Planta1Fot4{
-    display: inline-block;
-    position:absolute;
-    left:35%;
-    top:30%;
+#Planta1Fot4 {
+    position: absolute;
+    left: 33.5%;
+    top: 30.1%;
     max-width: 80%;
     z-index: 2;
 }
 #Planta2Fot4{
     position: absolute;
-    top: 11.5%;
+    top: 10.2%;
     left: 41.5%;
     max-width: 80%;
     z-index: 1;
@@ -267,7 +265,6 @@ body{
     justify-content: center;
 }
 .grid-container div{
-    background-color: white;
     border: 0px;
 }
 .grid-sub-container{
