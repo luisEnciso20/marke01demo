@@ -244,11 +244,16 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 510px 510px;
+    grid-template-columns: 1020px;
     justify-content: center;
 }
-
 .grid-container div{
     background-color: white;
     border: 0px;
+}
+.grid-sub-container{
+    display: grid;
+    grid-template-columns: 510px 510px;
+    justify-content: center;
+    background-color: blueviolet;
 }
