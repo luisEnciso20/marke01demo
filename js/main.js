@@ -61,17 +61,25 @@ window.addEventListener('scroll',function () {
 
     var to3= ((window.innerHeight - 550) / 2) - 30;
     if((sec3.getBoundingClientRect().top < (to3 * 2)) && (sec3.getBoundingClientRect().top > (to3 - 50))){
-        mano1Ft3.style.transform = "skewX(40deg)";
-        mano1Ft3.style.transform = "rotate(4deg)";
+        //mano1Ft3.style.transform = "skewX(40deg)";
+        mano1Ft3.style.transform = "rotateZ(10deg)";
+        mano1Ft3.style.top = "36.5%";
+        mano1Ft3.style.left = "34%";
         mano1Ft3.style.transition = "2s";
         mano2Ft3.style.transform = "skewX(20deg)";
-        mano2Ft3.style.transform = "rotate(3deg)";
+        mano2Ft3.style.transform = "rotateZ(-12deg)";
         mano2Ft3.style.transition = "2s";
+        mano2Ft3.style.top = "33%";
+        mano2Ft3.style.left = "26.3%";
     }else{
-        mano1Ft3.style.transform = "skewX(1deg)";
+        mano1Ft3.style.transform = "rotateZ(1deg)";
         mano1Ft3.style.transform = "rotate(1)";
-        mano2Ft3.style.transform = "skewX(1deg)";
+        mano1Ft3.style.top = "34.9%";
+        mano1Ft3.style.left = "35.2%";
+        mano2Ft3.style.transform = "rotateZ(1deg)";
         mano2Ft3.style.transform = "rotate(1)";
+        mano2Ft3.style.top = "35%";
+        mano2Ft3.style.left = "25.1%";
     }
 
     //////////////////4
@@ -84,23 +92,23 @@ window.addEventListener('scroll',function () {
 
     var to4= ((window.innerHeight - 550) / 2) - 30;
     if((sec4.getBoundingClientRect().top < (to4 * 2)) && (sec4.getBoundingClientRect().top > (to4 - 50))){
-        PlantaGra1Ft4.style.transform = "skewX(5deg)";
-        PlantaGra2Ft4.style.transform = "skewX(5deg)";
+        PlantaGra1Ft4.style.transform = "rotateZ(10deg)";
+        PlantaGra2Ft4.style.transform = "rotateZ(10deg)";
         PlantaGra1Ft4.style.transition = "2s";
         PlantaGra2Ft4.style.transition = "2s";
-        Planta1Ft4.style.transform = "skewX(6deg)";
-        Planta2Ft4.style.transform = "skewX(6deg)";
-        Planta3Ft4.style.transform = "skewX(6deg)";
+        Planta1Ft4.style.transform = "rotateZ(8deg)";
+        Planta2Ft4.style.transform = "rotateZ(8deg)";
+        Planta3Ft4.style.transform = "rotateZ(8deg)";
         Planta1Ft4.style.transition = "2s";
         Planta2Ft4.style.transition = "2s";
         Planta3Ft4.style.transition = "2s";
 
     }else{
-        Planta1Ft4.style.transform = "skewX(1deg)";
-        Planta2Ft4.style.transform = "skewX(1deg)";
-        Planta3Ft4.style.transform = "skewX(1deg)";
-        PlantaGra1Ft4.style.transform = "skewX(1deg)";
-        PlantaGra2Ft4.style.transform = "skewX(1deg)";
+        Planta1Ft4.style.transform = "rotateZ(1deg)";
+        Planta2Ft4.style.transform = "rotateZ(1deg)";
+        Planta3Ft4.style.transform = "rotateZ(1deg)";
+        PlantaGra1Ft4.style.transform = "rotateZ(1deg)";
+        PlantaGra2Ft4.style.transform = "rotateZ(1deg)";
     }
 
     //////////////////
@@ -112,13 +120,13 @@ window.addEventListener('scroll',function () {
 
     var to5= ((window.innerHeight - 550) / 2) - 30;
     if((sec5.getBoundingClientRect().top < (to5 * 2)) && (sec5.getBoundingClientRect().top > (to5 - 50))){
-        arbolFt5.style.transform = "rotateZ(8deg)";
+        arbolFt5.style.transform = "rotateZ(10deg)";
         arbolFt5.style.transition = "2s";
-        arboitoFt5.style.transform = "rotateZ(8deg)";
+        arboitoFt5.style.transform = "rotateZ(10deg)";
         arboitoFt5.style.transition = "2s";
-        planta1Ft5.style.transform = "rotateZ(8deg)";
+        planta1Ft5.style.transform = "rotateZ(10deg)";
         planta1Ft5.style.transition = "2s";
-        planta2Ft5.style.transform = "rotateZ(8deg)";
+        planta2Ft5.style.transform = "rotateZ(10deg)";
         planta2Ft5.style.transition = "2s";
     }else{
         arbolFt5.style.transform = "rotateZ(1deg)";
