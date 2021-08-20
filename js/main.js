@@ -19,12 +19,12 @@ window.addEventListener('scroll',function () {
 
             if(positionPlantaUnoFot1 > mitadPosition){
                 let heightRelative =  (tamanioIni - positionPlantaUnoFot1) * 0.2;
-                plantaunoFot1.style.maxHeight = '10%';
+                plantaunoFot1.style.maxWidth = '10%';
                 //plantaunoFot1.style.height = 25 + heightRelative + 'px';
             }else {
                 let heightRelativex = (positionPlantaUnoFot1 - tamanioFin) * 0.2;
                 //plantaunoFot1.style.height = 25 + heightRelativex + 'px';
-                plantaunoFot1.style.maxHeight = '100%';
+                plantaunoFot1.style.maxWidth = '100%';
             }
     }
 
