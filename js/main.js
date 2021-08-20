@@ -7,8 +7,10 @@ window.addEventListener('scroll',function () {
     const main = this.document.getElementById('mainconta');
     const section1 = document.querySelector('#sec1');
     const section2 = document.querySelector('#sec2');
+    const section3 = document.querySelector('#sec3');
+    const section4 = document.querySelector('#sec4');
     console.log(main.getBoundingClientRect().top);
-    if (main.getBoundingClientRect().top * -1 > 50) {
+    if (main.getBoundingClientRect().top * -1 > 100) {
         console.log('ga');
         section1.style.backgroundColor = "red";
 
@@ -22,6 +24,19 @@ window.addEventListener('scroll',function () {
     } else {
         section2.style.backgroundColor = "purple";
     }
+
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+        section3.style.backgroundColor = "blue";
+    } else {
+        section3.style.backgroundColor = "purple";
+    }
+
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+        section3.style.backgroundColor = "blue";
+    } else {
+        section3.style.backgroundColor = "purple";
+    }
+
 
     //PANTALLA
     //let tamanioFin = window.innerHeight / 3;
