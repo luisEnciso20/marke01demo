@@ -12,29 +12,29 @@ window.addEventListener('scroll',function () {
     console.log(main.getBoundingClientRect().top);
     if (main.getBoundingClientRect().top * -1 > 100) {
         console.log('ga');
-        section1.style.backgroundColor = "red";
+        section1.style.backgroundColor = "blue";
 
     } else {
         console.log('ra');
-        section1.style.backgroundColor = "pink";
+        section1.style.backgroundColor = "purple";
     }
 
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 3) {
         section2.style.backgroundColor = "blue";
     } else {
         section2.style.backgroundColor = "purple";
     }
 
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 3) {
         section3.style.backgroundColor = "blue";
     } else {
         section3.style.backgroundColor = "purple";
     }
 
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
-        section3.style.backgroundColor = "blue";
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 3) {
+        section4.style.backgroundColor = "blue";
     } else {
-        section3.style.backgroundColor = "purple";
+        section4.style.backgroundColor = "purple";
     }
 
 
