@@ -11,7 +11,7 @@ window.addEventListener('scroll',function () {
     //OBJETOS
     let plantaunoFot1 = this.document.getElementById('plantacrecer');
     let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
-
+/*
     if((positionPlantaUnoFot1 < tamanioIni) && (positionPlantaUnoFot1 > tamanioFin)){
             if(positionPlantaUnoFot1 > mitadPosition){
                 plantaunoFot1.style.maxWidth = '100%';
@@ -24,7 +24,7 @@ window.addEventListener('scroll',function () {
         plantaunoFot1.style.maxWidth = '10%';
         console.log('fuera');
     }
-
+*/
 
 /*
     let plantacreceunoFot1 = this.document.getElementById('plantacrecerft1');
