@@ -74,6 +74,59 @@ window.addEventListener('scroll',function () {
         mano2Ft3.style.transform = "rotate(1)";
     }
 
+    //////////////////4
+    const sec4 = this.document.getElementById('sec4');
+    const PlantaGra1Ft4 = this.document.getElementById('PlantaGra1Ft4');
+    const PlantaGra2Ft4 = this.document.getElementById('PlantaGra2Ft4');
+    const Planta1Ft4 = this.document.getElementById('Planta1Ft4');
+    const Planta2Ft4 = this.document.getElementById('Planta2Ft4');
+    const Planta3Ft4 = this.document.getElementById('Planta3Ft4');
+
+    var to4= ((window.innerHeight - 550) / 2) - 30;
+    if((sec4.getBoundingClientRect().top < (to4 * 2)) && (sec4.getBoundingClientRect().top > (to4 - 20))){
+        PlantaGra1Ft4.style.transform = "skewX(5deg)";
+        PlantaGra2Ft4.style.transform = "skewX(5deg)";
+        PlantaGra1Ft4.style.transition = "2s";
+        PlantaGra2Ft4.style.transition = "2s";
+        Planta1Ft4.style.transform = "skewX(6deg)";
+        Planta2Ft4.style.transform = "skewX(6deg)";
+        Planta3Ft4.style.transform = "skewX(6deg)";
+        Planta1Ft4.style.transition = "2s";
+        Planta2Ft4.style.transition = "2s";
+        Planta3Ft4.style.transition = "2s";
+
+    }else{
+        Planta1Ft4.style.transform = "skewX(1deg)";
+        Planta2Ft4.style.transform = "skewX(1deg)";
+        Planta3Ft4.style.transform = "skewX(1deg)";
+        PlantaGra1Ft4.style.transform = "skewX(1deg)";
+        PlantaGra2Ft4.style.transform = "skewX(1deg)";
+    }
+
+    //////////////////
+    const sec5 = this.document.getElementById('sec5');
+    const arbolFt5 = this.document.getElementById('arbolFt5');
+    const arboitoFt5 = this.document.getElementById('arboitoFt5');
+    const planta1Ft5 = this.document.getElementById('planta1Ft5');
+    const planta2Ft5 = this.document.getElementById('planta2Ft5');
+
+    var to5= ((window.innerHeight - 550) / 2) - 30;
+    if((sec5.getBoundingClientRect().top < (to5 * 2)) && (sec5.getBoundingClientRect().top > (to5 - 20))){
+        arbolFt5.style.transform = "rotateZ(8deg)";
+        arbolFt5.style.transition = "2s";
+        arboitoFt5.style.transform = "rotateZ(8deg)";
+        arboitoFt5.style.transition = "2s";
+        planta1Ft5.style.transform = "rotateZ(8deg)";
+        planta1Ft5.style.transition = "2s";
+        planta2Ft5.style.transform = "rotateZ(8deg)";
+        planta2Ft5.style.transition = "2s";
+    }else{
+        arbolFt5.style.transform = "rotateZ(1deg)";
+        arboitoFt5.style.transform = "rotateZ(1deg)";
+        planta1Ft5.style.transform = "rotateZ(1deg)";
+        planta2Ft5.style.transform = "rotateZ(1deg)";
+    }
+
 
 })
 
