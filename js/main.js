@@ -60,7 +60,7 @@ window.addEventListener('scroll',function () {
     const mano2Ft3 = this.document.getElementById('mano2Ft3');
 
     var to3= ((window.innerHeight - 550) / 2) - 30;
-    if((sec3.getBoundingClientRect().top < (to3 * 2)) && (sec3.getBoundingClientRect().top > (to3 - 20))){
+    if((sec3.getBoundingClientRect().top < (to3 * 2)) && (sec3.getBoundingClientRect().top > (to3 - 50))){
         mano1Ft3.style.transform = "skewX(40deg)";
         mano1Ft3.style.transform = "rotate(4deg)";
         mano1Ft3.style.transition = "2s";
@@ -83,7 +83,7 @@ window.addEventListener('scroll',function () {
     const Planta3Ft4 = this.document.getElementById('Planta3Ft4');
 
     var to4= ((window.innerHeight - 550) / 2) - 30;
-    if((sec4.getBoundingClientRect().top < (to4 * 2)) && (sec4.getBoundingClientRect().top > (to4 - 20))){
+    if((sec4.getBoundingClientRect().top < (to4 * 2)) && (sec4.getBoundingClientRect().top > (to4 - 50))){
         PlantaGra1Ft4.style.transform = "skewX(5deg)";
         PlantaGra2Ft4.style.transform = "skewX(5deg)";
         PlantaGra1Ft4.style.transition = "2s";
@@ -111,7 +111,7 @@ window.addEventListener('scroll',function () {
     const planta2Ft5 = this.document.getElementById('planta2Ft5');
 
     var to5= ((window.innerHeight - 550) / 2) - 30;
-    if((sec5.getBoundingClientRect().top < (to5 * 2)) && (sec5.getBoundingClientRect().top > (to5 - 20))){
+    if((sec5.getBoundingClientRect().top < (to5 * 2)) && (sec5.getBoundingClientRect().top > (to5 - 50))){
         arbolFt5.style.transform = "rotateZ(8deg)";
         arbolFt5.style.transition = "2s";
         arboitoFt5.style.transform = "rotateZ(8deg)";
