@@ -9,7 +9,9 @@ window.addEventListener('scroll',function () {
     const section2 = document.querySelector('#sec2');
     const section3 = document.querySelector('#sec3');
     const section4 = document.querySelector('#sec4');
-
+    console.log('height')
+    console.log(window.innerHeight);
+    console.log('top');
     console.log(section2.getBoundingClientRect().top);
 
     var to1= (window.innerHeight / 440) - 3;
