@@ -21,15 +21,17 @@ window.addEventListener('scroll',function () {
         plantaFt2.style.transform ="scale(2)";
         //plantaFt2.style.transform = "rotate(50deg)";
         plantaFt2.style.transition = "2s";
-        plantaFt2.style.top = "40%";
-        section2.style.backgroundColor = "blue";
+        plantaFt2.style.top = "65.5%";
+        plantaFt2.style.left = "19.5%";
+        //section2.style.backgroundColor = "blue";
     }
     else{
         plantaFt2.style.transform ="scale(1)";
         plantaFt2.style.transition = "1s";
         plantaFt2.style.top = "70%";
+        plantaFt2.style.left = "20%";
         //plantaFt2.style.transform = "rotate(1deg)";
-        section2.style.backgroundColor = "white";
+        //section2.style.backgroundColor = "white";
     }
 
 
