@@ -4,17 +4,25 @@
 window.addEventListener('scroll',function () {
 
     //PANTALLA
-    let tamanioFin = window.innerHeight / 3;
-    let tamanioIni = tamanioFin * 2;
-    let mitadPosition = window.innerHeight / 2;
+    //let tamanioFin = window.innerHeight / 3;
+    //let tamanioIni = tamanioFin * 2;
+    //let mitadPosition = window.innerHeight / 2;
 
     //OBJETOS
     let plantaunoFot1 = this.document.getElementById('plantacrecer');
-    let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
-
-
+    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
+    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().height;
+    if(plantaunoFot1.style.maxWidth == '100%'){
+        plantaunoFot1.style.maxWidth = '10%';
+    }else{
+        plantaunoFot1.style.maxWidth = '100%';
+    }
+    console.log(plantaunoFot1.style.maxWidth);
+    //plantaunoFot1.style.maxWidth = '100%';
+    //plantaunoFot1.style.animation = 'mover 1s ease-out';
+    //plantaunoFot1.style.animationFillMode = 'forwards';
     //FOTOGRAMA 1 OBJ 1
-
+/*
     if((positionPlantaUnoFot1 < tamanioIni) && (positionPlantaUnoFot1 > tamanioFin)){
 
             if(positionPlantaUnoFot1 > mitadPosition){
@@ -27,7 +35,7 @@ window.addEventListener('scroll',function () {
                 plantaunoFot1.style.maxWidth = '100%';
             }
     }
-
+*/
 
 /*
     let plantacreceunoFot1 = this.document.getElementById('plantacrecerft1');
