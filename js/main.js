@@ -10,14 +10,33 @@ window.addEventListener('scroll',function () {
 
     //OBJETOS
     let plantaunoFot1 = this.document.getElementById('plantacrecer');
-    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
-    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().height;
-    if(plantaunoFot1.style.maxWidth == '100%'){
-        plantaunoFot1.style.maxWidth = '10%';
+    let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
+    console.log(Math.round(positionPlantaUnoFot1 % 4));
+    /*
+    if(plantaunoFot1.getAttribute('data-posi') == null){
+        plantaunoFot1.setAttribute('data-posi',String(positionPlantaUnoFot1));
     }else{
-        plantaunoFot1.style.maxWidth = '100%';
+        var viene = Integer.parseInt(plantaunoFot1.getAttribute('data-posi'));
+        if((plantaunoFot1.getBoundingClientRect().top - 6) >= 50){
+            console.log('cambia');
+        }
     }
-    console.log(plantaunoFot1.style.maxWidth);
+    */
+    if((Math.round(positionPlantaUnoFot1 % 3))== 0){
+        if(plantaunoFot1.style.maxWidth == '100%'){
+            plantaunoFot1.style.maxWidth = '10%';
+        }else{
+            plantaunoFot1.style.maxWidth = '100%';
+        }
+    }
+
+
+    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().height;
+    //console.log(plantaunoFot1.getAttribute('data-posi'));
+
+
+
+    //console.log(plantaunoFot1.style.maxWidth);
     //plantaunoFot1.style.maxWidth = '100%';
     //plantaunoFot1.style.animation = 'mover 1s ease-out';
     //plantaunoFot1.style.animationFillMode = 'forwards';
