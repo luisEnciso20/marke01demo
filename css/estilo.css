@@ -81,3 +81,13 @@
     position: absolute;
     max-width: 80%;
 }
+
+.img-puestas-100{
+    position: absolute;
+    max-width: 100%;
+}
+
+.img-puestas-50{
+    position: absolute;
+    max-width: 10%;
+}

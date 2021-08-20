@@ -16,14 +16,15 @@ window.addEventListener('scroll',function () {
     //FOTOGRAMA 1 OBJ 1
 
     if((positionPlantaUnoFot1 < tamanioIni) && (positionPlantaUnoFot1 > tamanioFin)){
+
             if(positionPlantaUnoFot1 > mitadPosition){
                 let heightRelative =  (tamanioIni - positionPlantaUnoFot1) * 0.2;
-                plantaunoFot1.style.maxHeight = '120%';
+                plantaunoFot1.style.maxHeight = '10%';
                 //plantaunoFot1.style.height = 25 + heightRelative + 'px';
             }else {
                 let heightRelativex = (positionPlantaUnoFot1 - tamanioFin) * 0.2;
                 //plantaunoFot1.style.height = 25 + heightRelativex + 'px';
-                plantaunoFot1.style.maxHeight = '80%';
+                plantaunoFot1.style.maxHeight = '100%';
             }
     }
 
