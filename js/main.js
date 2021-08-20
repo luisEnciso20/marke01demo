@@ -54,62 +54,26 @@ window.addEventListener('scroll',function () {
         //section2.style.backgroundColor = "white";
     }
 
+    //////////////////3
+    const sec3 = this.document.getElementById('sec3');
+    const mano1Ft3 = this.document.getElementById('mano1Ft3');
+    const mano2Ft3 = this.document.getElementById('mano2Ft3');
 
-
-    //PANTALLA
-    //let tamanioFin = window.innerHeight / 3;
-    //let tamanioIni = tamanioFin * 2;
-    //let mitadPosition = window.innerHeight / 2;
-
-    //OBJETOS
-    //let plantaunoFot1 = this.document.getElementById('plantacrecer');
-    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
-/*
-    if((positionPlantaUnoFot1 < tamanioIni) && (positionPlantaUnoFot1 > tamanioFin)){
-            if(positionPlantaUnoFot1 > mitadPosition){
-                plantaunoFot1.style.maxWidth = '100%';
-                console.log('miau');
-            }else {
-
-                console.log('ga');
-            }
+    var to3= ((window.innerHeight - 550) / 2) - 30;
+    if((sec3.getBoundingClientRect().top < (to3 * 2)) && (sec3.getBoundingClientRect().top > (to3 - 20))){
+        mano1Ft3.style.transform = "skewX(40deg)";
+        mano1Ft3.style.transform = "rotate(4deg)";
+        mano1Ft3.style.transition = "2s";
+        mano2Ft3.style.transform = "skewX(20deg)";
+        mano2Ft3.style.transform = "rotate(3deg)";
+        mano2Ft3.style.transition = "2s";
     }else{
-        plantaunoFot1.style.maxWidth = '10%';
-        console.log('fuera');
-    }
-*/
-
-/*
-    let plantacreceunoFot1 = this.document.getElementById('plantacrecerft1');
-    let positionPlantacreceUnoFot1 = plantacreceunoFot1.getBoundingClientRect().top;
-
-
-    //FOTOGRAMA 1 OBJ 2
-    if((positionPlantacreceUnoFot1 < tamanioIni) && (positionPlantacreceUnoFot1 > tamanioFin)){
-        if(positionPlantacreceUnoFot1 > mitadPosition){
-            let heightRelative =  (tamanioIni - positionPlantacreceUnoFot1) * 0.15;
-            plantacreceunoFot1.style.height = 40 + heightRelative + 'px';
-        }else {
-            let heightRelativex = (positionPlantacreceUnoFot1 - tamanioFin) * 0.15;
-            plantacreceunoFot1.style.height = 40 + heightRelativex + 'px';
-        }
+        mano1Ft3.style.transform = "skewX(1deg)";
+        mano1Ft3.style.transform = "rotate(1)";
+        mano2Ft3.style.transform = "skewX(1deg)";
+        mano2Ft3.style.transform = "rotate(1)";
     }
 
 
-    let plantacreceuno2Fot1 = this.document.getElementById('plantacrecer2ft1');
-    let positionPlantacreceDosFot1 = plantacreceuno2Fot1.getBoundingClientRect().top;
-
-
-       //FOTOGRAMA 1 OBJ 3
-       if((positionPlantacreceDosFot1 < tamanioIni) && (positionPlantacreceDosFot1 > tamanioFin)){
-           if(positionPlantacreceDosFot1 > mitadPosition){
-               let heightRelative =  (tamanioIni - positionPlantacreceDosFot1) * 0.15;
-               plantacreceuno2Fot1.style.height = 40 + heightRelative + 'px';
-           }else {
-               let heightRelativex = (positionPlantacreceDosFot1 - tamanioFin) * 0.15;
-               plantacreceuno2Fot1.style.height = 40 + heightRelativex + 'px';
-           }
-       }
-*/
 })
 
