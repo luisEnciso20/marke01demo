@@ -4,11 +4,8 @@
 window.addEventListener('scroll',function () {
 
     //const main = document.querySelector('#mainconta');
-    const main = this.document.getElementById('mainconta');
-    const section1 = document.querySelector('#sec1');
-    const section2 = document.querySelector('#sec2');
-    const section3 = document.querySelector('#sec3');
-    const section4 = document.querySelector('#sec4');
+    const section2 = this.document.getElementById('sec2');
+    const plantaFt2 = this.document.getElementById('plantaFt2');
 
     var to1= ((window.innerHeight - 440) / 2) - 30;
     console.log('height')
@@ -21,9 +18,15 @@ window.addEventListener('scroll',function () {
     console.log(to1 - 20);
 
     if((section2.getBoundingClientRect().top < (to1 * 2)) && (section2.getBoundingClientRect().top > (to1 - 20))){
+        plantaFt2.style.transform ="scale(2)";
+        //plantaFt2.style.transform = "rotate(50deg)";
+        plantaFt2.style.transition = "2s";
         section2.style.backgroundColor = "blue";
     }
     else{
+        plantaFt2.style.transform ="scale(1)";
+        plantaFt2.style.transition = "1s";
+        //plantaFt2.style.transform = "rotate(1deg)";
         section2.style.backgroundColor = "white";
     }
 
