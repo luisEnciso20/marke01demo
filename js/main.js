@@ -9,13 +9,18 @@ window.addEventListener('scroll',function () {
     const section2 = document.querySelector('#sec2');
     const section3 = document.querySelector('#sec3');
     const section4 = document.querySelector('#sec4');
+
+    var to1= ((window.innerHeight - 440) / 2) - 30;
     console.log('height')
     console.log(window.innerHeight);
     console.log('top');
     console.log(section2.getBoundingClientRect().top);
+    console.log('if1');
+    console.log(246);
+    console.log('if2');
+    console.log(to1 * 2);
 
-    var to1= (window.innerHeight / 440) - 3;
-    if((section2.getBoundingClientRect().top < (to1 + 80)) && (section2.getBoundingClientRect().top > to1)){
+    if((section2.getBoundingClientRect().top < (to1 * 2)) && (section2.getBoundingClientRect().top > (to1))){
         section2.style.backgroundColor = "blue";
     }
     else{
