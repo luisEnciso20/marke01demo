@@ -3,14 +3,34 @@
 //plantaunoFot1.style.animationFillMode = 'forwards';
 window.addEventListener('scroll',function () {
 
+    //const main = document.querySelector('#mainconta');
+    const main = this.document.getElementById('mainconta');
+    const section1 = document.querySelector('#sec1');
+    const section2 = document.querySelector('#sec2');
+    console.log(main.getBoundingClientRect().top);
+    if (main.getBoundingClientRect().top * -1 > 50) {
+        console.log('ga');
+        section1.style.backgroundColor = "red";
+
+    } else {
+        console.log('ra');
+        section1.style.backgroundColor = "pink";
+    }
+
+    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+        section2.style.backgroundColor = "blue";
+    } else {
+        section2.style.backgroundColor = "purple";
+    }
+
     //PANTALLA
-    let tamanioFin = window.innerHeight / 3;
-    let tamanioIni = tamanioFin * 2;
-    let mitadPosition = window.innerHeight / 2;
+    //let tamanioFin = window.innerHeight / 3;
+    //let tamanioIni = tamanioFin * 2;
+    //let mitadPosition = window.innerHeight / 2;
 
     //OBJETOS
-    let plantaunoFot1 = this.document.getElementById('plantacrecer');
-    let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
+    //let plantaunoFot1 = this.document.getElementById('plantacrecer');
+    //let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
 /*
     if((positionPlantaUnoFot1 < tamanioIni) && (positionPlantaUnoFot1 > tamanioFin)){
             if(positionPlantaUnoFot1 > mitadPosition){
