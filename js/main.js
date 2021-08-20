@@ -9,34 +9,17 @@ window.addEventListener('scroll',function () {
     const section2 = document.querySelector('#sec2');
     const section3 = document.querySelector('#sec3');
     const section4 = document.querySelector('#sec4');
-    console.log(main.scrollTop);
-    console.log(main.getBoundingClientRect().top * -1);
-    if (main.getBoundingClientRect().top * -1 > 50) {
-        console.log('ga');
-        section1.style.backgroundColor = "blue";
 
-    } else {
-        console.log('ra');
-        section1.style.backgroundColor = "purple";
-    }
+    console.log(section2.getBoundingClientRect().top);
 
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
+    var to1= (window.innerHeight / 440) - 3;
+    if((section2.getBoundingClientRect().top < (to1 + 80)) && (section2.getBoundingClientRect().top > to1)){
         section2.style.backgroundColor = "blue";
-    } else {
-        section2.style.backgroundColor = "purple";
+    }
+    else{
+        section2.style.backgroundColor = "white";
     }
 
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
-        section3.style.backgroundColor = "blue";
-    } else {
-        section3.style.backgroundColor = "purple";
-    }
-
-    if (main.getBoundingClientRect().top * -1 > window.innerHeight / 2) {
-        section4.style.backgroundColor = "blue";
-    } else {
-        section4.style.backgroundColor = "purple";
-    }
 
 
     //PANTALLA
