@@ -18,9 +18,9 @@ window.addEventListener('scroll',function () {
     console.log('if1');
     console.log(to1 * 2);
     console.log('if2');
-    console.log(to1);
+    console.log(to1 - 20);
 
-    if((section2.getBoundingClientRect().top < (to1 * 2)) && (section2.getBoundingClientRect().top > (to1))){
+    if((section2.getBoundingClientRect().top < (to1 * 2)) && (section2.getBoundingClientRect().top > (to1 - 20))){
         section2.style.backgroundColor = "blue";
     }
     else{
