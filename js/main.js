@@ -1,19 +1,3 @@
-var micanvas = document.getElementById("micanvas");
-var ctx = micanvas.getContext("2d");
-var miimagen = new Image();
-var miimagen2 = new Image();
-miimagen2.src="img/fot4/fot4_ESTATICO.png";
-miimagen.src="img/fot4/fot4_planta1.png";
-
-
-miimagen2.onload = function (){
-    ctx.drawImage(miimagen2,55,290);
-}
-miimagen.onload = function (){
-    ctx.drawImage(miimagen,196,206);
-}
-
-
 //plantaunoFot1.style.height = 30 + heightRelative + 'px';
 //plantaunoFot1.style.animation = 'mover 2s ease-out';
 //plantaunoFot1.style.animationFillMode = 'forwards';
@@ -25,7 +9,7 @@ window.addEventListener('scroll',function () {
     let mitadPosition = window.innerHeight / 2;
 
     //OBJETOS
-    let plantaunoFot1 = this.document.getElementById('plantafot1');
+    let plantaunoFot1 = this.document.getElementById('plantacrecer');
     let positionPlantaUnoFot1 = plantaunoFot1.getBoundingClientRect().top;
 
     //FOTOGRAMA 1 OBJ 1
@@ -38,7 +22,7 @@ window.addEventListener('scroll',function () {
                 plantaunoFot1.style.height = 25 + heightRelativex + 'px';
             }
     }
-
+/*
     let plantacreceunoFot1 = this.document.getElementById('plantacrecerft1');
     let positionPlantacreceUnoFot1 = plantacreceunoFot1.getBoundingClientRect().top;
 
@@ -69,10 +53,6 @@ window.addEventListener('scroll',function () {
                plantacreceuno2Fot1.style.height = 40 + heightRelativex + 'px';
            }
        }
-
-
-
-
-
+*/
 })
 
