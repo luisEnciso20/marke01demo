@@ -28,37 +28,37 @@
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
     .grid-sub-container{
-        background-color: orange;
+        background-color: orange !important;
     }
 }
 /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     .grid-sub-container{
-        background-color: purple;
+        background-color: purple !important;
     }
 }
 /* Para 800px */
 @media only screen and (max-width: 820px) and (min-width: 621px) {
     .grid-sub-container{
-        background-color: red;
+        background-color: red !important
     }
 }
 /* Para 600px */
 @media only screen and (max-width: 620px) and (min-width: 501px) {
     .grid-sub-container{
-        background-color: yellow;
+        background-color: yellow !important;
     }
 }
 /* Para 480px */
 @media only screen and (max-width: 500px) and (min-width: 341px) {
     .grid-sub-container{
-        background-color: green;
+        background-color: green !important;
     }
 }
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px)  {
     .grid-sub-container{
-        background-color: pink;
+        background-color: pink !important;
     }
 }
 
