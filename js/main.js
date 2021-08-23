@@ -27,7 +27,7 @@ window.addEventListener('scroll',function () {
     //////////////////2
     const section2 = this.document.getElementById('sec2');
     const plantaFt2 = this.document.getElementById('plantaFt2');
-    var to2= ((window.innerHeight - 440) / 2) - 30;
+    var to2= ((window.innerHeight - 430) / 2) - 30;
     console.log('height')
     console.log(window.innerHeight);
     console.log('top');
