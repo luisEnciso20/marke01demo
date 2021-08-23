@@ -27,25 +27,25 @@
 */
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
-    #contra{
+    .grid-sub-container{
         background-color: orange;
     }
 }
 /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
-    #contra{
+    .grid-sub-container{
         background-color: purple;
     }
 }
 /* Para 800px */
 @media only screen and (max-width: 820px) and (min-width: 621px) {
-    #contra{
+    .grid-sub-container{
         background-color: red;
     }
 }
 /* Para 600px */
 @media only screen and (max-width: 620px) and (min-width: 501px) {
-    #contra{
+    .grid-sub-container{
         background-color: yellow;
     }
 }
