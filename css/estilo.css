@@ -52,6 +52,9 @@
 /* Para 480px */
 @media only screen and (max-width: 500px) and (min-width: 341px) {
     .grid-sub-container{
+        display: grid;
+        grid-template-columns: 480px;
+        justify-content: center;
         background-color: green !important;
     }
 }
@@ -97,7 +100,6 @@ main{
     display: grid;
     grid-template-columns: 510px 510px;
     justify-content: center;
-    background-color: blueviolet;
 }
 .img-puestas{
     position: absolute;
