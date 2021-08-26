@@ -64,19 +64,70 @@
         background-color: green !important;
          */
         display: grid !important;
-        grid-template-columns: 490px !important;
+        grid-template-columns: 481px !important;
         justify-content: center !important;
     }
 
     #sec1{
+        width: 480px!important;
         height: 960px !important;
     }
-
     #sec2{
+        width: 480px!important;
         height: 880px !important;
     }
-
-
+    #sec3{
+        width: 480px!important;
+        height: 1100px !important;
+    }
+    #sec4{
+        width: 480px!important;
+        height: 1100px !important;
+    }
+    #sec5{
+        width: 480px!important;
+        height: 1100px !important;
+    }
+    #sec6{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec7{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec8{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec9{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec10{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec11{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec12{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec13{
+        width: 480px!important;
+        height: 1060px !important;
+    }
+    #sec14{
+        width: 480px!important;
+        height: 1020px !important;
+    }
+    #sec15{
+        width: 480px!important;
+        height: 980px !important;
+    }
 
     /*
     .grid-sub-container{
