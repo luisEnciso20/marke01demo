@@ -1,8 +1,16 @@
+
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-family: "Ludka Biniek";
+    src: url('../fonts/Ludka Biniek - Geller Headline Bold.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Bold.otf'), url('../fonts/Ludka Biniek - Geller Text Light Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Light.otf'), url('../fonts/Ludka Biniek - Geller Text Regular Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Regular.otf');
+
+
+    font-family: "Druk Heavy";
+    src: url('../fonts/Druk-Heavy.otf');
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,9 +19,11 @@
      */
 }
 .textoCudadrado{
+    font-family: "Open Sans";
     font-size: 9pt;
 }
 .tituloCuadrado{
+    font-family: "Druk Heavy";
     font-size: 14pt;
     font-weight: bold;
 }
@@ -88,13 +98,13 @@
         height: 1060px !important;
     }
     #sec7{
-        height: 1060px !important;
+        height: 1140px !important;
     }
     #sec8{
         height: 1060px !important;
     }
     #sec9{
-        height: 1060px !important;
+        height: 1140px !important;
     }
     #sec10{
         height: 1060px !important;
@@ -103,7 +113,7 @@
         height: 1060px !important;
     }
     #sec12{
-        height: 1060px !important;
+        height: 1080px !important;
     }
     #sec13{
         height: 1060px !important;
