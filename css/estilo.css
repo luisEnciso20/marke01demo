@@ -27,9 +27,12 @@
 */
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
+    /*
+    ***************************************************************************
     .grid-sub-container{
         background-color: orange !important;
     }
+     */
 }
 /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
@@ -40,23 +43,37 @@
 /* Para 800px */
 @media only screen and (max-width: 820px) and (min-width: 621px) {
     .grid-sub-container{
-        background-color: red !important
+        background-color: red !important;
     }
 }
+
 /* Para 600px */
 @media only screen and (max-width: 620px) and (min-width: 501px) {
     .grid-sub-container{
         background-color: yellow !important;
     }
 }
+
 /* Para 480px */
 @media only screen and (max-width: 500px) and (min-width: 341px) {
     .grid-sub-container{
-        display: grid !important;
-        grid-template-columns: 480px !important;
-        justify-content: center !important;
         background-color: green !important;
     }
+
+    /*
+    .grid-sub-container{
+
+        background-color: green !important;
+    }
+    #sec2{
+        grid-column-start: 1 !important;
+        max-height: 440px !important;
+    }
+    #sec2b{
+        grid-column-start: 1 !important;
+        max-height: 440px !important;
+    }
+     */
 }
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px)  {
@@ -74,20 +91,24 @@
 }
  */
 
-main div {
-    scroll-snap-align: start;
+#tierra62{
+    opacity:0;
 }
 
-main{
-    height: 100%;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
+#barro73{
+    opacity:0;
 }
-#mainconta{
-    overflow: auto;
-    scroll-snap-type: y mandatory;
-    height: 100%;
+
+#persona83{
+    opacity:0;
 }
+
+#fruto102{
+    transform:rotate(-47deg);
+    -ms-transform:rotate(-47deg); /* IE 9 en adelante*/
+    -webkit-transform:rotate(-47deg);
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 1020px;
