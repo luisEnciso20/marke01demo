@@ -1,10 +1,10 @@
 
 @font-face {
     font-family: "Ludka Biniek";
-    src: url('/fonts/Ludka Biniek - Geller Headline Bold.otf'),
-    url('/fonts/Ludka Biniek - Geller Text Bold.otf'), url('/fonts/Ludka Biniek - Geller Text Light Italic.otf'),
-    url('/fonts/Ludka Biniek - Geller Text Light.otf'), url('/fonts/Ludka Biniek - Geller Text Regular Italic.otf'),
-    url('/fonts/Ludka Biniek - Geller Text Regular.otf');
+    src: url('../fonts/Ludka Biniek - Geller Headline Bold.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Bold.otf'), url('../fonts/Ludka Biniek - Geller Text Light Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Light.otf'), url('../fonts/Ludka Biniek - Geller Text Regular Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Regular.otf');
 
 
     font-family: "Druk Heavy";
