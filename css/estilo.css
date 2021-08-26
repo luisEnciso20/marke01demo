@@ -11,10 +11,10 @@
      */
 }
 .textoCudadrado{
-    font-size: 10pt;
+    font-size: 9pt;
 }
 .tituloCuadrado{
-    font-size: 15pt;
+    font-size: 14pt;
     font-weight: bold;
 }
 /*
@@ -74,59 +74,45 @@
     }
     #sec2{
         height: 880px !important;
-
     }
     #sec3{
         height: 1100px !important;
-        width: 100% !important;
     }
     #sec4{
         height: 1100px !important;
-        width: 100% !important;
     }
     #sec5{
         height: 1100px !important;
-        width: 100% !important;
     }
     #sec6{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec7{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec8{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec9{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec10{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec11{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec12{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec13{
         height: 1060px !important;
-        width: 100% !important;
     }
     #sec14{
         height: 1020px !important;
-        width: 100% !important;
     }
     #sec15{
         height: 980px !important;
-        width: 100% !important;
     }
 
     .grid-container{
@@ -183,8 +169,9 @@
 
 .grid-container{
     width: 1020px;
-    border: 0;
-    padding: 0;
+    border: 0px;
+    padding: 0px;
+    justify-content: center;
 }
 
 
