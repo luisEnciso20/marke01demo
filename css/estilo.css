@@ -64,69 +64,69 @@
         background-color: green !important;
          */
         display: grid !important;
-        grid-template-columns: 481px !important;
+        grid-template-columns: 490px !important;
         justify-content: center !important;
     }
 
     #sec1{
-        width: 480px!important;
         height: 960px !important;
+        width: 100% !important;
     }
     #sec2{
-        width: 480px!important;
         height: 880px !important;
+        width: 100% !important;
     }
     #sec3{
-        width: 480px!important;
         height: 1100px !important;
+        width: 100% !important;
     }
     #sec4{
-        width: 480px!important;
         height: 1100px !important;
+        width: 100% !important;
     }
     #sec5{
-        width: 480px!important;
         height: 1100px !important;
+        width: 100% !important;
     }
     #sec6{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec7{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec8{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec9{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec10{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec11{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec12{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec13{
-        width: 480px!important;
         height: 1060px !important;
+        width: 100% !important;
     }
     #sec14{
-        width: 480px!important;
         height: 1020px !important;
+        width: 100% !important;
     }
     #sec15{
-        width: 480px!important;
         height: 980px !important;
+        width: 100% !important;
     }
 
     /*
