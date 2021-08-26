@@ -6,7 +6,9 @@
 *{
     margin: 0;
     padding: 0;
+    /*
     box-sizing: border-box;
+     */
 }
 .textoCudadrado{
     font-size: 10pt;
@@ -56,12 +58,25 @@
 
 /* Para 480px */
 @media only screen and (max-width: 500px) and (min-width: 341px) {
+
     .grid-sub-container{
+        /*
         background-color: green !important;
+         */
         display: grid !important;
         grid-template-columns: 490px !important;
         justify-content: center !important;
     }
+
+    #sec1{
+        height: 960px !important;
+    }
+
+    #sec2{
+        height: 880px !important;
+    }
+
+
 
     /*
     .grid-sub-container{
@@ -112,11 +127,14 @@
     -webkit-transform:rotate(-47deg);
 }
 
+
 .grid-container{
     display: grid;
     grid-template-columns: 1020px;
     justify-content: center;
 }
+
+
 .grid-container div{
     border: 0px;
 }
