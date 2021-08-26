@@ -326,14 +326,36 @@ window.addEventListener('scroll',function () {
 
     }
 
+    //////////////////13
+    const sec13 = this.document.getElementById('sec13');
+    const maskagua131 = this.document.getElementById('maskagua131');
+    const maskagua132 = this.document.getElementById('maskagua132');
+    const maskagua133 = this.document.getElementById('maskagua133');
+    var to13= ((window.innerHeight - 530) / 2) - 30;
+    if((sec13.getBoundingClientRect().top < (to13 * 2)) && (sec13.getBoundingClientRect().top > (to13 - 50))){
+        maskagua131.style.transform = "scale(1.3)";
+        maskagua131.style.top = "29.8%";
+        maskagua131.style.transition = "2s";
 
+        maskagua132.style.transform = "scale(1.9)";
+        maskagua132.style.top = "45.1%";
+        maskagua132.style.transition = "2s";
 
+        maskagua133.style.transform = "scale(2.2)";
+        maskagua133.style.top = "64.1%";
+        maskagua133.style.transition = "2s";
 
+    }else{
+        maskagua131.style.top = "32.3%";
+        maskagua131.style.transform = "scale(0)";
 
+        maskagua132.style.top = "49.3%";
+        maskagua132.style.transform = "scale(0)";
 
+        maskagua133.style.top = "69.6%";
+        maskagua133.style.transform = "scale(0)";
 
-
-
+    }
 
 
 
