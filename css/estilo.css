@@ -70,11 +70,11 @@
 
     #sec1{
         height: 960px !important;
-        width: 100% !important;
+
     }
     #sec2{
         height: 880px !important;
-        width: 100% !important;
+
     }
     #sec3{
         height: 1100px !important;
@@ -129,6 +129,9 @@
         width: 100% !important;
     }
 
+    .grid-container{
+        max-width: 471px !important;
+    }
     /*
     .grid-sub-container{
 
@@ -178,11 +181,10 @@
     -webkit-transform:rotate(-47deg);
 }
 
-
 .grid-container{
-    display: grid;
-    grid-template-columns: 1020px;
-    justify-content: center;
+    width: 1020px;
+    border: 0;
+    padding: 0;
 }
 
 
