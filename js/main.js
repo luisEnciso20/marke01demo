@@ -357,8 +357,8 @@ window.addEventListener('scroll',function () {
     const sec15 = this.document.getElementById('sec15');
     const humo151 = this.document.getElementById('humo151');
     var to15= ((window.innerHeight - 490) / 2) - 30;
-    console.log(sec15.getBoundingClientRect().top);
-    console.log(to15 * 3);
+    //console.log(sec15.getBoundingClientRect().top);
+    //console.log(to15 * 3);
     if((sec15.getBoundingClientRect().top < (to15 * 3)) && (sec15.getBoundingClientRect().top > (to15 - 50))){
         humo151.style.top = "10%";
         humo151.style.left ="44%";
