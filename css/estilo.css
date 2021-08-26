@@ -3,8 +3,9 @@
     font-family: "Ludka Biniek";
     src: url('../fonts/Ludka Biniek - Geller Text Bold.otf'),
     url('../fonts/Ludka Biniek - Geller Text Regular.otf');
+}
 
-
+@font-face{
     font-family: "Druk Heavy";
     src: url('../fonts/Druk-Heavy.otf');
 }
