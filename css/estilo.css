@@ -172,8 +172,9 @@
 
 .grid-container{
     width: 1020px;
-    margin-right:auto;
+    margin:0 auto;
     justify-content: center;
+
 }
 
 
