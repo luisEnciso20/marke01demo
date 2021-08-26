@@ -147,6 +147,9 @@
     justify-content: center;
     background-color: blueviolet;
 }
+    border: 0px;
+    padding: 0px;
+
  */
 
 #tierra62{
@@ -168,9 +171,10 @@
 }
 
 .grid-container{
+    /*
     width: 1020px;
-    border: 0px;
-    padding: 0px;
+     */
+    margin-right:auto;
     justify-content: center;
 }
 
