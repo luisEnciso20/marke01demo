@@ -1,8 +1,13 @@
 
 @font-face {
     font-family: "Ludka Biniek";
-    src: url('../fonts/Ludka Biniek - Geller Text Bold.otf'),
-    url('../fonts/Ludka Biniek - Geller Text Regular.otf');
+    src: url('../fonts/Ludka Biniek - Geller Text Regular.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Bold.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Light Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Light.otf'),
+    url('../fonts/Ludka Biniek - Geller Text Regular Italic.otf'),
+    url('../fonts/Ludka Biniek - Geller Headline Bold.otf');
+
 }
 
 @font-face{
@@ -19,7 +24,8 @@
 }
 .textoCudadrado{
     font-family: "Ludka Biniek";
-    font-size: 9pt;
+    font-style: normal !important;
+    font-size: 10pt;
 }
 .tituloCuadrado{
     font-family: "Druk Heavy";
