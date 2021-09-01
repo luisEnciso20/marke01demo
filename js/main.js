@@ -138,11 +138,11 @@ window.addEventListener('scroll',function () {
     if((sec6.getBoundingClientRect().top < (to6 * 2)) && (sec6.getBoundingClientRect().top > (to6 - 50))){
         brazo61.style.transform = "rotateZ(8deg)";
         brazo61.style.transition = "2s";
-        brazo61.style.top = "43%";
+        brazo61.style.top = "41%";
         brazo61.style.left = "7%";
         brazo62.style.transform = "rotateZ(8deg)";
         brazo62.style.transition = "2s";
-        brazo62.style.top = "43.4%";
+        brazo62.style.top = "41.4%";
         brazo62.style.left = "13.7%";
         tierra61.style.transform = "rotateZ(7deg)";
         tierra61.style.top = "64%";
@@ -154,10 +154,10 @@ window.addEventListener('scroll',function () {
 
     }else{
         brazo61.style.transform = "rotateZ(1deg)";
-        brazo61.style.top = "39.9%";
+        brazo61.style.top = "38.9%";
         brazo61.style.left = "9.8%";
         brazo62.style.transform = "rotateZ(1deg)";
-        brazo62.style.top = "39.4%";
+        brazo62.style.top = "38.4%";
         brazo62.style.left = "15.3%";
         tierra61.style.opacity = 1;
         tierra62.style.opacity = 0;
