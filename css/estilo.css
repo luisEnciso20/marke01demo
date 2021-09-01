@@ -74,6 +74,9 @@
     .grid-container{
         max-width: 760px !important;
     }
+    #sec1{
+        height: 700px !important;
+    }
 }
 
 /* Para 600px */
@@ -100,7 +103,6 @@
 
     #sec1{
         height: 960px !important;
-
     }
     #sec2{
         height: 880px !important;

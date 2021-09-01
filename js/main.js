@@ -55,22 +55,22 @@ window.addEventListener('scroll',function () {
     if((sec3.getBoundingClientRect().top < (to3 * 2)) && (sec3.getBoundingClientRect().top > (to3 - 50))){
         //mano1Ft3.style.transform = "skewX(40deg)";
         mano1Ft3.style.transform = "rotateZ(10deg)";
-        mano1Ft3.style.top = "36.5%";
+        mano1Ft3.style.top = "33.4%";
         mano1Ft3.style.left = "34%";
         mano1Ft3.style.transition = "2s";
         mano2Ft3.style.transform = "skewX(20deg)";
         mano2Ft3.style.transform = "rotateZ(-12deg)";
         mano2Ft3.style.transition = "2s";
-        mano2Ft3.style.top = "33%";
-        mano2Ft3.style.left = "26.3%";
+        mano2Ft3.style.top = "31%";
+        mano2Ft3.style.left = "25.1%";
     }else{
         mano1Ft3.style.transform = "rotateZ(1deg)";
         mano1Ft3.style.transform = "rotate(1)";
-        mano1Ft3.style.top = "34.9%";
-        mano1Ft3.style.left = "35.2%";
+        mano1Ft3.style.top = "32.4%";
+        mano1Ft3.style.left = "35.%";
         mano2Ft3.style.transform = "rotateZ(1deg)";
         mano2Ft3.style.transform = "rotate(1)";
-        mano2Ft3.style.top = "35%";
+        mano2Ft3.style.top = "33%";
         mano2Ft3.style.left = "25.1%";
     }
 
