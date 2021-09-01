@@ -44,16 +44,16 @@
 */
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
-
-    .grid-sub-container{
-        background-color: orange !important;
+    /*
+        .grid-sub-container{
+            background-color: orange !important;
+        }
+    */
     }
-
-}
-/* Para 960px */
+    /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     .grid-sub-container{
-    background-color: purple !important;
+    /*background-color: purple !important;*/
     display: grid !important;
     grid-template-columns: 460px 460px !important;
     justify-content: center !important;
@@ -65,7 +65,7 @@
 /* Para 800px */
 @media only screen and (max-width: 820px) and (min-width: 621px) {
     .grid-sub-container{
-        background-color: red !important;
+        /*background-color: red !important;*/
         display: grid !important;
         grid-template-columns: 380px 380px !important;
         justify-content: center !important;
@@ -81,7 +81,7 @@
 /* Para 600px */
 @media only screen and (max-width: 620px) and (min-width: 501px) {
     .grid-sub-container{
-        background-color: yellow !important;
+        /*background-color: yellow !important;*/
     }
 }
 
@@ -153,7 +153,7 @@
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px)  {
     .grid-sub-container{
-        background-color: pink !important;
+        /*background-color: pink !important;*/
     }
 }
 
