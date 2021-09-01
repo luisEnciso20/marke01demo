@@ -218,3 +218,13 @@
     position: absolute;
     max-width: 10%;
 }
+
+#plan{
+    width: 44px;
+    height: 43px;
+    animation: crescendo 1.8s alternate infinite ease-in;
+}
+@keyframes crescendo {
+    0%   {transform: scale(.7);}
+    100% {transform: scale(1.2);}
+}
