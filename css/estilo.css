@@ -79,7 +79,7 @@
         background-color: green !important;
          */
         display: grid !important;
-        grid-template-columns: 490px !important;
+        grid-template-columns: 800px !important;
         justify-content: center !important;
     }
     #idInicio{
@@ -136,20 +136,6 @@
     .grid-container{
         max-width: 471px !important;
     }
-    /*
-    .grid-sub-container{
-
-        background-color: green !important;
-    }
-    #sec2{
-        grid-column-start: 1 !important;
-        max-height: 440px !important;
-    }
-    #sec2b{
-        grid-column-start: 1 !important;
-        max-height: 440px !important;
-    }
-     */
 }
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px)  {
@@ -157,18 +143,6 @@
         background-color: pink !important;
     }
 }
-
-/*
-.grid-sub-container{
-    display: grid;
-    grid-template-columns: 510px 510px;
-    justify-content: center;
-    background-color: blueviolet;
-}
-    border: 0px;
-    padding: 0px;
-
- */
 
 #tierra62{
     opacity:0;
