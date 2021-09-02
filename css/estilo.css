@@ -93,7 +93,7 @@
         background-color: green !important;
          */
         display: grid !important;
-        grid-template-columns: 490px !important;
+        grid-template-columns: 480px !important;
         justify-content: center !important;
     }
     #idInicio{
@@ -102,52 +102,67 @@
 
     #sec1{
         height: 880px !important;
+        width: 480px !important;
     }
     #sec2{
         height: 820px !important;
+        width: 480px !important;
     }
     #sec3{
         height: 1250px !important;
+        width: 480px !important;
     }
     #sec4{
         height: 1150px !important;
+        width: 480px !important;
     }
     #sec5{
         height: 1250px !important;
+        width: 480px !important;
     }
     #sec6{
         height: 1260px !important;
+        width: 480px !important;
     }
     #sec7{
         height: 1240px !important;
+        width: 480px !important;
     }
     #sec8{
         height: 1060px !important;
+        width: 480px !important;
     }
     #sec9{
         height: 1140px !important;
+        width: 480px !important;
     }
     #sec10{
         height: 1060px !important;
+        width: 480px !important;
     }
     #sec11{
         height: 1260px !important;
+        width: 480px !important;
     }
     #sec12{
         height: 1280px !important;
+        width: 480px !important;
     }
     #sec13{
         height: 1160px !important;
+        width: 480px !important;
     }
     #sec14{
         height: 1020px !important;
+        width: 480px !important;
     }
     #sec15{
         height: 980px !important;
+        width: 480px !important;
     }
 
     .grid-container{
-        max-width: 471px !important;
+        max-width: 480px !important;
     }
 }
 /* Para 320px */
