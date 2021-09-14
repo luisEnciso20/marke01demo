@@ -1,10 +1,8 @@
-//plantaunoFot1.style.height = 30 + heightRelative + 'px';
-//plantaunoFot1.style.animation = 'mover 2s ease-out';
-//plantaunoFot1.style.animationFillMode = 'forwards';
+
 window.addEventListener('scroll',function () {
 
-
     //////////////////1
+    /*
     const sec1 = this.document.getElementById('sec1');
     const Planta1Ft1 = this.document.getElementById('Planta1Ft1');
     const Planta2Ft1 = this.document.getElementById('Planta2Ft1');
@@ -22,9 +20,10 @@ window.addEventListener('scroll',function () {
         Planta2Ft1.style.transform ="scale(1)";
         Planta2Ft1.style.top = "64.5%";
     }
-
+    */
 
     //////////////////2
+    /*
     const section2 = this.document.getElementById('sec2');
     const plantaFt2 = this.document.getElementById('plantaFt2');
     var to2= ((window.innerHeight - 430) / 2) - 30;
@@ -45,8 +44,10 @@ window.addEventListener('scroll',function () {
         //plantaFt2.style.transform = "rotate(1deg)";
         //section2.style.backgroundColor = "white";
     }
+*/
 
     //////////////////3
+    /*
     const sec3 = this.document.getElementById('sec3');
     const mano1Ft3 = this.document.getElementById('mano1Ft3');
     const mano2Ft3 = this.document.getElementById('mano2Ft3');
@@ -73,8 +74,10 @@ window.addEventListener('scroll',function () {
         mano2Ft3.style.top = "33%";
         mano2Ft3.style.left = "25.1%";
     }
+     */
 
     //////////////////4
+    /*
     const sec4 = this.document.getElementById('sec4');
     const PlantaGra1Ft4 = this.document.getElementById('PlantaGra1Ft4');
     const PlantaGra2Ft4 = this.document.getElementById('PlantaGra2Ft4');
@@ -102,8 +105,10 @@ window.addEventListener('scroll',function () {
         PlantaGra1Ft4.style.transform = "rotateZ(1deg)";
         PlantaGra2Ft4.style.transform = "rotateZ(1deg)";
     }
+     */
 
     //////////////////5
+    /*
     const sec5 = this.document.getElementById('sec5');
     const arbolFt5 = this.document.getElementById('arbolFt5');
     const arboitoFt5 = this.document.getElementById('arboitoFt5');
@@ -126,13 +131,15 @@ window.addEventListener('scroll',function () {
         planta1Ft5.style.transform = "rotateZ(1deg)";
         planta2Ft5.style.transform = "rotateZ(1deg)";
     }
-
+    */
     //////////////////6
+    /*
     const sec6 = this.document.getElementById('sec6');
     const brazo61 = this.document.getElementById('brazo61');
     const brazo62 = this.document.getElementById('brazo62');
     const tierra61 = this.document.getElementById('tierra61');
     const tierra62 = this.document.getElementById('tierra62');
+
 
     var to6= ((window.innerHeight - 550) / 2) - 30;
     if((sec6.getBoundingClientRect().top < (to6 * 2)) && (sec6.getBoundingClientRect().top > (to6 - 50))){
@@ -165,12 +172,16 @@ window.addEventListener('scroll',function () {
         tierra61.style.top = "50%";
         tierra61.style.left = "33%";
     }
+    */
+
     //////////////////7
+    /*
     const sec7 = this.document.getElementById('sec7');
     const brazo71 = this.document.getElementById('brazo71');
     const brazo72 = this.document.getElementById('brazo72');
     const barro73 = this.document.getElementById('barro73');
     const barro74 = this.document.getElementById('barro74');
+
 
     var to7= ((window.innerHeight - 530) / 2) - 30;
     if((sec7.getBoundingClientRect().top < (to7 * 2)) && (sec7.getBoundingClientRect().top > (to7 - 50))){
@@ -205,8 +216,10 @@ window.addEventListener('scroll',function () {
         barro74.style.transition = "1s";
 
     }
+     */
 
     //////////////////8
+    /*
     const sec8 = this.document.getElementById('sec8');
     const persona81 = this.document.getElementById('persona81');
     const persona82 = this.document.getElementById('persona82');
@@ -237,8 +250,10 @@ window.addEventListener('scroll',function () {
 
         persona83.style.opacity = 0;
     }
+*/
 
     //////////////////9
+    /*
     const sec9 = this.document.getElementById('sec9');
     const brazo91 = this.document.getElementById('brazo91');
     const brazo92 = this.document.getElementById('brazo92');
@@ -261,11 +276,14 @@ window.addEventListener('scroll',function () {
         brazo92.style.top = "34%";
         brazo92.style.left = "11%";
     }
+     */
 
     //////////////////10
+    /*
     const sec10 = this.document.getElementById('sec10');
     const fruto102 = this.document.getElementById('fruto102');
     var to10= ((window.innerHeight - 530) / 2) - 30;
+
     if((sec10.getBoundingClientRect().top < (to10 * 2)) && (sec10.getBoundingClientRect().top > (to10 - 50))){
         fruto102.style.transform = "rotate(1deg)";
         fruto102.style.transition = "2s";
@@ -285,10 +303,15 @@ window.addEventListener('scroll',function () {
         fruto101.style.left = "44%";
     }
 
+     */
+
+
     //////////////////11
+    /*
     const sec11 = this.document.getElementById('sec11');
     const brazo111 = this.document.getElementById('brazo111');
     var to11= ((window.innerHeight - 530) / 2) - 30;
+
     if((sec11.getBoundingClientRect().top < (to11 * 2)) && (sec11.getBoundingClientRect().top > (to11 - 50))){
         brazo111.style.transform = "rotateZ(10deg)";
         brazo111.style.transition = "2s";
@@ -308,11 +331,13 @@ window.addEventListener('scroll',function () {
         hoja113.style.opacity = 1;
 
     }
-
+    */
     //////////////////12
+    /*
     const sec12 = this.document.getElementById('sec12');
     const brazo121 = this.document.getElementById('brazo121');
     var to12= ((window.innerHeight - 530) / 2) - 30;
+
     if((sec12.getBoundingClientRect().top < (to12 * 2)) && (sec12.getBoundingClientRect().top > (to12 - 50))){
         brazo121.style.transform = "rotateZ(12deg)";
         brazo121.style.transition = "2s";
@@ -323,10 +348,11 @@ window.addEventListener('scroll',function () {
         brazo121.style.transform = "rotateZ(1deg)";
         brazo121.style.top = "27.5%";
         brazo121.style.left = "43.5%";
-
     }
+     */
 
     //////////////////13
+    /*
     const sec13 = this.document.getElementById('sec13');
     const maskagua131 = this.document.getElementById('maskagua131');
     const maskagua132 = this.document.getElementById('maskagua132');
@@ -356,10 +382,11 @@ window.addEventListener('scroll',function () {
         maskagua133.style.transform = "scale(0)";
 
     }
-
+     */
 
 
     //////////////////14
+    /*
     const sec14 = this.document.getElementById('sec14');
     const brazo141 = this.document.getElementById('brazo141');
     var to14= ((window.innerHeight - 510) / 2) - 30;
@@ -374,8 +401,10 @@ window.addEventListener('scroll',function () {
         brazo141.style.top = "55.4%";
         brazo141.style.left = "56.2%";
     }
+     */
 
     //////////////////15
+    /*
     const sec15 = this.document.getElementById('sec15');
     const humo151 = this.document.getElementById('humo151');
     var to15= ((window.innerHeight - 490) / 2) - 30;
@@ -393,6 +422,8 @@ window.addEventListener('scroll',function () {
         humo151.style.opacity = 1;
 
     }
+
+     */
 
 })
 
