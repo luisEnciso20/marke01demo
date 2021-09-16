@@ -132,7 +132,7 @@
         background-color: green !important;
          */
         display: grid !important;
-        grid-template-columns: 480px !important;
+        grid-template-columns: 430px !important;
         justify-content: center !important;
     }
     #idInicio{
@@ -141,67 +141,72 @@
 
     #sec1{
         height: 1000px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
+
+    #Planta1Ft1{
+
+    }
+
     #sec2{
         height: 900px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec3{
         height: 1250px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec4{
         height: 1150px !important;
-        width: 480px !important;
+        width: 430px !important;
     }
     #sec5{
         height: 1250px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec6{
         height: 1260px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec7{
         height: 1240px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec8{
         height: 1060px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec9{
         height: 1140px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec10{
         height: 1060px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec11{
         height: 1260px !important;
-        width: 480px !important;
+        width: 430px !important;
     }
     #sec12{
         height: 1280px !important;
-        width: 480px !important;
+        width: 430px !important;
     }
     #sec13{
         height: 1160px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec14{
         height: 1020px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
     #sec15{
         height: 980px !important;
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
 
     .grid-container{
-        max-width: 480px !important;
+        max-width: 430px !important;
     }
 }
 /* Para 320px */
