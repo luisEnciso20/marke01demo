@@ -140,7 +140,7 @@
     }
 
     #sec1{
-        height: 1000px !important;
+        height: 1100px !important;
         max-width: 400px !important;
     }
 
@@ -149,13 +149,40 @@
     }
 
     #sec2{
-        height: 900px !important;
+        height: 1000px !important;
         max-width: 400px !important;
     }
     #sec3{
         height: 1250px !important;
         max-width: 400px !important;
     }
+    #img1Ft3{
+        max-width: 50%;
+        top:18% !important;
+        left: 5% !important;
+        z-index: 3 !important;
+    }
+    #img2Ft3{
+        max-width: 50%;
+    }
+    #img3Ft3{
+        max-width: 70%;
+        top:75% !important;
+        left: 10% !important;
+    }
+    #mano1Ft3{
+        max-width: 50%;
+        top: 31% !important;
+        left: 34% !important;
+        z-index: 2;
+    }
+    #mano2Ft3{
+        max-width: 50%;
+        top:31% !important;
+        left: 21% !important;
+        z-index: 4;
+    }
+
     #sec4{
         height: 1150px !important;
         width: 400px !important;
@@ -331,6 +358,7 @@
 }
 
 /* ------------ 3 ------------ */
+/*
 #mano1Ft3{
     animation: ft3-movi-1 2s alternate infinite ease-in;
 }
@@ -364,7 +392,7 @@
         left: 25.1%;
     }
 }
-
+*/
 /* ------------ 4 ------------ */
 #PlantaGra1Ft4{
     animation: ft4-movi-1 2s alternate infinite ease-in;
