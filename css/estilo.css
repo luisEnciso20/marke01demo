@@ -38,6 +38,14 @@
 	box-sizing:border-box;
 }
 
+@media only screen and (max-width: 3500px) and (min-width: 1501px) {
+
+    .grid-sub-container{
+        background-color: deeppink !important;
+    }
+
+}
+
 /* Para px */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
 
