@@ -133,7 +133,7 @@
          */
         display: grid !important;
         grid-template-columns: 400px !important;
-        justify-content: center !important;
+        justify-content: normal !important;
     }
     #idInicio{
         height: 270px !important;
@@ -144,17 +144,20 @@
         max-width: 400px !important;
     }
 
-    #Planta1Ft1{
-
-    }
 
     #sec2{
         height: 1000px !important;
         max-width: 400px !important;
     }
     #sec3{
-        height: 2050px !important;
+        height: auto !important;
         max-width: 400px !important;
+    }
+    #sec3img{
+        height: 550px !important;
+    }
+    #sec3img1{
+        height: 1000px !important;
     }
     #img1Ft3{
         max-width: 50%;
@@ -358,7 +361,7 @@
 }
 
 /* ------------ 3 ------------ */
-/*
+
 #mano1Ft3{
     animation: ft3-movi-1 2s alternate infinite ease-in;
 }
@@ -392,7 +395,7 @@
         left: 25.1%;
     }
 }
-*/
+
 /* ------------ 4 ------------ */
 #PlantaGra1Ft4{
     animation: ft4-movi-1 2s alternate infinite ease-in;
