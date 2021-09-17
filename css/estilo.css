@@ -572,16 +572,16 @@
     }
 
     #fruto102{
-        top:30%;
-        left: 44%;
-        z-index: 5;
+        top:25.2%;
+        left: 31%;
+        z-index: 3;
         animation: ft10-movi-1 2s alternate infinite ease-in;
     }
 
     #fruto101{
-        top:25.2%;
-        left: 31%;
-        z-index: 3;
+        top:30%;
+        left: 44%;
+        z-index: 5;
         animation: ft10-movi-2 2s alternate infinite ease-in;
     }
 
@@ -676,26 +676,29 @@
 
     /* ------------ 12 ------------ */
 
+
     #imgEst1Ft12{
         top:20%;
         left: 10%;
     }
 
     #brazo121{
+        max-width: 37%;
         top:27.5%;
-        left: 43.5%;
+        left: 43.8%;
         animation: ft12-movi-1 2s alternate infinite ease-in;
     }
+
     @keyframes ft12-movi-1 {
         0%   {
             transform: rotateZ(12deg);
-            top: 25.2%;
-            left: 42.2%;
+            top:25%;
+            left: 42.8%;
         }
         100% {
             transform: rotateZ(1deg);
-            top: 27.5%;
-            left: 43.5%;
+            top:27.5%;
+            left: 43.8%;
         }
     }
 
@@ -713,56 +716,53 @@
     }
 
     #maskagua131{
-        top:32.3%;
-        left:31.6%;
+        max-width: 30%;
+        top:27.4%;
+        left:26.9%;
         z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
     }
 
     #maskagua132{
-        top:49.3%;
-        left:34.0%;
+        max-width: 29%;
+        top:41.1%;
+        left:27.4%;
         z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
     }
 
     #maskagua133{
-        top:69.6%;
-        left:48%;
+        max-width: 34%;
+        top:58.5%;
+        left:38.5%;
         z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
     }
 
     @keyframes ft13-movi-1 {
-        0%   {
-            transform: scale(1.3);
-            top: 29.8%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 32.3%;
         }
     }
 
     @keyframes ft13-movi-2 {
-        0%   {
-            transform: scale(1.9);
-            top: 45.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 49.3%;
         }
     }
 
     @keyframes ft13-movi-3 {
-        0%   {
-            transform: scale(2.2);
-            top: 64.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 69.6%;
         }
     }
 
@@ -774,6 +774,7 @@
     }
 
     #brazo141{
+        max-width: 19%;
         top:55.4%;
         left:56.2%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
@@ -1355,16 +1356,16 @@
     }
 
     #fruto102{
-        top:30%;
-        left: 44%;
-        z-index: 5;
+        top:25.2%;
+        left: 31%;
+        z-index: 3;
         animation: ft10-movi-1 2s alternate infinite ease-in;
     }
 
     #fruto101{
-        top:25.2%;
-        left: 31%;
-        z-index: 3;
+        top:30%;
+        left: 44%;
+        z-index: 5;
         animation: ft10-movi-2 2s alternate infinite ease-in;
     }
 
@@ -1459,26 +1460,29 @@
 
     /* ------------ 12 ------------ */
 
+
     #imgEst1Ft12{
         top:20%;
         left: 10%;
     }
 
     #brazo121{
+        max-width: 37%;
         top:27.5%;
-        left: 43.5%;
+        left: 43.8%;
         animation: ft12-movi-1 2s alternate infinite ease-in;
     }
+
     @keyframes ft12-movi-1 {
         0%   {
             transform: rotateZ(12deg);
-            top: 25.2%;
-            left: 42.2%;
+            top:25%;
+            left: 42.8%;
         }
         100% {
             transform: rotateZ(1deg);
-            top: 27.5%;
-            left: 43.5%;
+            top:27.5%;
+            left: 43.8%;
         }
     }
 
@@ -1496,56 +1500,53 @@
     }
 
     #maskagua131{
-        top:32.3%;
-        left:31.6%;
+        max-width: 30%;
+        top:27.4%;
+        left:26.9%;
         z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
     }
 
     #maskagua132{
-        top:49.3%;
-        left:34.0%;
+        max-width: 29%;
+        top:41.1%;
+        left:27.4%;
         z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
     }
 
     #maskagua133{
-        top:69.6%;
-        left:48%;
+        max-width: 34%;
+        top:58.5%;
+        left:38.5%;
         z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
     }
 
     @keyframes ft13-movi-1 {
-        0%   {
-            transform: scale(1.3);
-            top: 29.8%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 32.3%;
         }
     }
 
     @keyframes ft13-movi-2 {
-        0%   {
-            transform: scale(1.9);
-            top: 45.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 49.3%;
         }
     }
 
     @keyframes ft13-movi-3 {
-        0%   {
-            transform: scale(2.2);
-            top: 64.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 69.6%;
         }
     }
 
@@ -1557,6 +1558,7 @@
     }
 
     #brazo141{
+        max-width: 19%;
         top:55.4%;
         left:56.2%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
@@ -1600,8 +1602,6 @@
             opacity: 1;
         }
     }
-
-
 
 }
     /* Para 960px */
