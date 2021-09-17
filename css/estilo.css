@@ -41,7 +41,9 @@
 @media only screen and (max-width: 3500px) and (min-width: 1501px) {
 
     .grid-sub-container{
+        /*
         background-color: deeppink !important;
+         */
     }
 
     /* ------------------------------ANIMACIONES------------------------------ */
@@ -147,19 +149,37 @@
     }
 
     /* ------------ 4 ------------ */
+
+    #imgEst1Ft4{
+        top:48%;
+        left: 10%;
+    }
+
     #PlantaGra1Ft4{
+        top:29.5%;
+        left: 34%;
+        z-index: 2;
         animation: ft4-movi-1 2s alternate infinite ease-in;
     }
     #PlantaGra2Ft4{
+        top:10%;
+        left: 40.5%;
+        z-index: 1;
         animation: ft4-movi-2 2s alternate infinite ease-in;
     }
     #Planta1Ft4{
+        top:49.5%;
+        left: 17.1%;
         animation: ft4-movi-3 2s alternate infinite ease-in;
     }
     #Planta2Ft4{
+        top:65.8%;
+        left: 12.8%;
         animation: ft4-movi-4 2s alternate infinite ease-in;
     }
     #Planta3Ft4{
+        top:66%;
+        left: 66%;
         animation: ft4-movi-5 2s alternate infinite ease-in;
     }
 
@@ -210,16 +230,29 @@
 
     /* ------------ 5 ------------ */
 
+    #imgEst1Ft5{
+        top:17%;
+        left: 10%;
+    }
+
     #arbolFt5{
+        top:2.2%;
+        left: 4.1%;
         animation: ft5-movi-1 2s alternate infinite ease-in;
     }
     #arboitoFt5{
+        top:54%;
+        left: 58.8%;
         animation: ft5-movi-2 2s alternate infinite ease-in;
     }
     #planta1Ft5{
+        top:75%;
+        left:46%;
         animation: ft5-movi-3 2s alternate infinite ease-in;
     }
     #planta2Ft5{
+        top:75%;
+        left: 79.7%;
         animation: ft5-movi-4 2s alternate infinite ease-in;
     }
 
@@ -259,16 +292,33 @@
 
     /* ------------ 6 ------------ */
 
+    #imgEst1Ft6{
+        top:30%;
+        left: 2%;
+        z-index: 2;
+    }
     #brazo61{
+        top:38.3%;
+        left: 9.8%;
+        z-index: 4;
         animation: ft6-movi-1 2s alternate infinite ease-in;
     }
     #brazo62{
+        top:38.4%;
+        left: 15.3%;
+        z-index: 1;
         animation: ft6-movi-2 2s alternate infinite ease-in;
     }
     #tierra61{
+        top:50%;
+        left: 33%;
+        z-index: 3;
         animation: ft6-movi-3 2s alternate infinite ease-in;
     }
     #tierra62{
+        top:73%;
+        left: 62%;
+        z-index: 4;
         animation: ft6-movi-4 2s alternate infinite ease-in;
     }
 
@@ -324,19 +374,37 @@
 
     /* ------------ 7 ------------ */
 
+    #imgEst1Ft7{
+        top:26%;
+        left: 10.3%;
+        z-index: 2;
+    }
+
     #brazo71{
+        top:36.2%;
+        left: 32.1%;
+        z-index: 3;
         animation: ft7-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo72{
+        top:36%;
+        left: 41.5%;
+        z-index: 1;
         animation: ft7-movi-2 2s alternate infinite ease-in;
     }
 
     #barro74{
+        top:65%;
+        left: 59.3%;
+        z-index: 5;
         animation: ft7-movi-3 2s alternate infinite ease-in;
     }
 
     #barro73{
+        top:77.5%;
+        left: 53%;
+        z-index: 4;
         animation: ft7-movi-4 4s alternate infinite ease-in;
     }
 
@@ -388,13 +456,26 @@
 
     /* ------------ 8 ------------ */
 
+    #imgEst1Ft8{
+        top:40%;
+        left: 10%;
+    }
+
+    #imgEst2Ft8{
+        top:36.2%;
+        left: 17%;
+    }
+
     #persona81{
+        top:35%;left: 38%;z-index: 2;
         animation: ft8-movi-1 2s alternate infinite ease-in;
     }
     #persona82{
+        top:47.5%;left: 37%;z-index: 1;
         animation: ft8-movi-2 2s alternate infinite ease-in;
     }
     #persona83{
+        top:66%;left: 39.5%;
         animation: ft8-movi-3 4s alternate infinite ease-in;
     }
 
@@ -435,13 +516,30 @@
 
     /* ------------ 9 ------------ */
 
+    #imgEst1Ft9{
+        top:26%;
+        left: 10%;
+        z-index: 4;
+    }
+
+    #imgEst2Ft9{
+        top:35.2%;
+        left: 82.3%;
+        z-index: 6;
+    }
+
     #brazo91{
+        top:37%;
+        left: 64%;
+        z-index: 1;
         animation: ft9-movi-1 1s alternate infinite ease-in;
     }
     #brazo92{
+        top:34%;
+        left: 11%;
+        z-index: 5;
         animation: ft9-movi-2 2s alternate infinite ease-in;
     }
-
 
     @keyframes ft9-movi-1 {
         0%   {
@@ -467,11 +565,23 @@
 
     /* ------------ 10 ------------ */
 
+    #imgEst1Ft10{
+        top:20%;
+        left: 12%;
+        z-index: 4;
+    }
+
     #fruto102{
+        top:30%;
+        left: 44%;
+        z-index: 5;
         animation: ft10-movi-1 2s alternate infinite ease-in;
     }
 
     #fruto101{
+        top:25.2%;
+        left: 31%;
+        z-index: 3;
         animation: ft10-movi-2 2s alternate infinite ease-in;
     }
 
@@ -501,15 +611,37 @@
 
     /* ------------ 11 ------------ */
 
+    #imgEst1Ft11{
+        top:20%;
+        left: 10%;
+    }
+
+    #imgEst2Ft11{
+        top:36%;
+        left: 44%;
+    }
+
+    #imgEst3Ft11{
+        top:46.7%;
+        left: 44%;
+        z-index: 4;
+    }
+
     #brazo111{
+        top:42%;
+        left: 24%;
         animation: ft11-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo112{
+        top:38.2%;
+        left: 32.5%;
         animation: ft11-movi-2 2s alternate infinite ease-in;
     }
 
     #hoja113{
+        top:50%;
+        left: 43%;
         animation: ft11-movi-3 2s alternate infinite ease-in;
     }
 
@@ -544,7 +676,14 @@
 
     /* ------------ 12 ------------ */
 
+    #imgEst1Ft12{
+        top:20%;
+        left: 10%;
+    }
+
     #brazo121{
+        top:27.5%;
+        left: 43.5%;
         animation: ft12-movi-1 2s alternate infinite ease-in;
     }
     @keyframes ft12-movi-1 {
@@ -562,15 +701,35 @@
 
     /* ------------ 13 ------------ */
 
+    #imgEst1Ft13{
+        top:30%;
+        left:10%;
+        z-index: 4;
+    }
+    #imgEst2Ft13{
+        top:25%;
+        left: 23%;
+        z-index: 1;
+    }
+
     #maskagua131{
+        top:32.3%;
+        left:31.6%;
+        z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
     }
 
     #maskagua132{
+        top:49.3%;
+        left:34.0%;
+        z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
     }
 
     #maskagua133{
+        top:69.6%;
+        left:48%;
+        z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
     }
 
@@ -609,7 +768,14 @@
 
     /* ------------ 14 ------------ */
 
+    #imgEst1Ft14{
+        top:17%;
+        left: 10%;
+    }
+
     #brazo141{
+        top:55.4%;
+        left:56.2%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
     }
 
@@ -628,7 +794,14 @@
 
     /* ------------ 15 ------------ */
 
+    #imgEst1Ft15{
+        top:38%;
+        left: 12%;
+    }
+
     #humo151{
+        top:22%;
+        left:44%;
         animation: ft15-movi-1 2s alternate infinite ease-in;
     }
 
@@ -645,16 +818,16 @@
         }
     }
 
-
-
 }
 
-/* Para px */
+/* Para px TABLETS Y MONITORES MEDIANOS */
 @media only screen and (max-width: 1500px) and (min-width: 981px) {
 
-        .grid-sub-container{
+    .grid-sub-container{
+        /*
             background-color: orange !important;
-        }
+         */
+    }
 
     /* ------------------------------ANIMACIONES------------------------------ */
     /* ------------ Planta ------------ */
@@ -759,19 +932,37 @@
     }
 
     /* ------------ 4 ------------ */
+
+    #imgEst1Ft4{
+        top:48%;
+        left: 10%;
+    }
+
     #PlantaGra1Ft4{
+        top:29.5%;
+        left: 34%;
+        z-index: 2;
         animation: ft4-movi-1 2s alternate infinite ease-in;
     }
     #PlantaGra2Ft4{
+        top:10%;
+        left: 40.5%;
+        z-index: 1;
         animation: ft4-movi-2 2s alternate infinite ease-in;
     }
     #Planta1Ft4{
+        top:49.5%;
+        left: 17.1%;
         animation: ft4-movi-3 2s alternate infinite ease-in;
     }
     #Planta2Ft4{
+        top:65.8%;
+        left: 12.8%;
         animation: ft4-movi-4 2s alternate infinite ease-in;
     }
     #Planta3Ft4{
+        top:66%;
+        left: 66%;
         animation: ft4-movi-5 2s alternate infinite ease-in;
     }
 
@@ -822,16 +1013,29 @@
 
     /* ------------ 5 ------------ */
 
+    #imgEst1Ft5{
+        top:17%;
+        left: 10%;
+    }
+
     #arbolFt5{
+        top:2.2%;
+        left: 4.1%;
         animation: ft5-movi-1 2s alternate infinite ease-in;
     }
     #arboitoFt5{
+        top:54%;
+        left: 58.8%;
         animation: ft5-movi-2 2s alternate infinite ease-in;
     }
     #planta1Ft5{
+        top:75%;
+        left:46%;
         animation: ft5-movi-3 2s alternate infinite ease-in;
     }
     #planta2Ft5{
+        top:75%;
+        left: 79.7%;
         animation: ft5-movi-4 2s alternate infinite ease-in;
     }
 
@@ -871,16 +1075,33 @@
 
     /* ------------ 6 ------------ */
 
+    #imgEst1Ft6{
+        top:30%;
+        left: 2%;
+        z-index: 2;
+    }
     #brazo61{
+        top:38.3%;
+        left: 9.8%;
+        z-index: 4;
         animation: ft6-movi-1 2s alternate infinite ease-in;
     }
     #brazo62{
+        top:38.4%;
+        left: 15.3%;
+        z-index: 1;
         animation: ft6-movi-2 2s alternate infinite ease-in;
     }
     #tierra61{
+        top:50%;
+        left: 33%;
+        z-index: 3;
         animation: ft6-movi-3 2s alternate infinite ease-in;
     }
     #tierra62{
+        top:73%;
+        left: 62%;
+        z-index: 4;
         animation: ft6-movi-4 2s alternate infinite ease-in;
     }
 
@@ -936,19 +1157,37 @@
 
     /* ------------ 7 ------------ */
 
+    #imgEst1Ft7{
+        top:26%;
+        left: 10.3%;
+        z-index: 2;
+    }
+
     #brazo71{
+        top:36.2%;
+        left: 32.1%;
+        z-index: 3;
         animation: ft7-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo72{
+        top:36%;
+        left: 41.5%;
+        z-index: 1;
         animation: ft7-movi-2 2s alternate infinite ease-in;
     }
 
     #barro74{
+        top:65%;
+        left: 59.3%;
+        z-index: 5;
         animation: ft7-movi-3 2s alternate infinite ease-in;
     }
 
     #barro73{
+        top:77.5%;
+        left: 53%;
+        z-index: 4;
         animation: ft7-movi-4 4s alternate infinite ease-in;
     }
 
@@ -1000,13 +1239,26 @@
 
     /* ------------ 8 ------------ */
 
+    #imgEst1Ft8{
+        top:40%;
+        left: 10%;
+    }
+
+    #imgEst2Ft8{
+        top:36.2%;
+        left: 17%;
+    }
+
     #persona81{
+        top:35%;left: 38%;z-index: 2;
         animation: ft8-movi-1 2s alternate infinite ease-in;
     }
     #persona82{
+        top:47.5%;left: 37%;z-index: 1;
         animation: ft8-movi-2 2s alternate infinite ease-in;
     }
     #persona83{
+        top:66%;left: 39.5%;
         animation: ft8-movi-3 4s alternate infinite ease-in;
     }
 
@@ -1047,13 +1299,30 @@
 
     /* ------------ 9 ------------ */
 
+    #imgEst1Ft9{
+        top:26%;
+        left: 10%;
+        z-index: 4;
+    }
+
+    #imgEst2Ft9{
+        top:35.2%;
+        left: 82.3%;
+        z-index: 6;
+    }
+
     #brazo91{
+        top:37%;
+        left: 64%;
+        z-index: 1;
         animation: ft9-movi-1 1s alternate infinite ease-in;
     }
     #brazo92{
+        top:34%;
+        left: 11%;
+        z-index: 5;
         animation: ft9-movi-2 2s alternate infinite ease-in;
     }
-
 
     @keyframes ft9-movi-1 {
         0%   {
@@ -1079,11 +1348,23 @@
 
     /* ------------ 10 ------------ */
 
+    #imgEst1Ft10{
+        top:20%;
+        left: 12%;
+        z-index: 4;
+    }
+
     #fruto102{
+        top:30%;
+        left: 44%;
+        z-index: 5;
         animation: ft10-movi-1 2s alternate infinite ease-in;
     }
 
     #fruto101{
+        top:25.2%;
+        left: 31%;
+        z-index: 3;
         animation: ft10-movi-2 2s alternate infinite ease-in;
     }
 
@@ -1113,15 +1394,37 @@
 
     /* ------------ 11 ------------ */
 
+    #imgEst1Ft11{
+        top:20%;
+        left: 10%;
+    }
+
+    #imgEst2Ft11{
+        top:36%;
+        left: 44%;
+    }
+
+    #imgEst3Ft11{
+        top:46.7%;
+        left: 44%;
+        z-index: 4;
+    }
+
     #brazo111{
+        top:42%;
+        left: 24%;
         animation: ft11-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo112{
+        top:38.2%;
+        left: 32.5%;
         animation: ft11-movi-2 2s alternate infinite ease-in;
     }
 
     #hoja113{
+        top:50%;
+        left: 43%;
         animation: ft11-movi-3 2s alternate infinite ease-in;
     }
 
@@ -1156,7 +1459,14 @@
 
     /* ------------ 12 ------------ */
 
+    #imgEst1Ft12{
+        top:20%;
+        left: 10%;
+    }
+
     #brazo121{
+        top:27.5%;
+        left: 43.5%;
         animation: ft12-movi-1 2s alternate infinite ease-in;
     }
     @keyframes ft12-movi-1 {
@@ -1174,15 +1484,35 @@
 
     /* ------------ 13 ------------ */
 
+    #imgEst1Ft13{
+        top:30%;
+        left:10%;
+        z-index: 4;
+    }
+    #imgEst2Ft13{
+        top:25%;
+        left: 23%;
+        z-index: 1;
+    }
+
     #maskagua131{
+        top:32.3%;
+        left:31.6%;
+        z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
     }
 
     #maskagua132{
+        top:49.3%;
+        left:34.0%;
+        z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
     }
 
     #maskagua133{
+        top:69.6%;
+        left:48%;
+        z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
     }
 
@@ -1221,7 +1551,14 @@
 
     /* ------------ 14 ------------ */
 
+    #imgEst1Ft14{
+        top:17%;
+        left: 10%;
+    }
+
     #brazo141{
+        top:55.4%;
+        left:56.2%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
     }
 
@@ -1240,7 +1577,14 @@
 
     /* ------------ 15 ------------ */
 
+    #imgEst1Ft15{
+        top:38%;
+        left: 12%;
+    }
+
     #humo151{
+        top:22%;
+        left:44%;
         animation: ft15-movi-1 2s alternate infinite ease-in;
     }
 
@@ -1263,7 +1607,9 @@
     /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     .grid-sub-container{
-    background-color: purple !important;
+    /*
+        background-color: purple !important;
+     */
     display: grid !important;
     grid-template-columns: 460px 460px !important;
     justify-content: center !important;
@@ -1274,8 +1620,10 @@
 }
 /* Para 800px */
 @media only screen and (max-width: 820px) and (min-width: 621px) {
-    .grid-sub-container{
+        .grid-sub-container{
+        /*
         background-color: red !important;
+         */
         display: grid !important;
         grid-template-columns: 380px 380px !important;
         justify-content: center !important;
@@ -1291,11 +1639,13 @@
 /* Para 600px */
 @media only screen and (max-width: 620px) and (min-width: 501px) {
     .grid-sub-container{
-        background-color: yellow !important;
-    }
+    /*
+    background-color: yellow !important;
+     */
+}
 }
 
-/* Para 480px */
+/* Para 480px ----- CELULAR ----- */
 @media only screen and (max-width: 500px) and (min-width: 341px) {
 
 	#responsive-titulo{
@@ -1646,6 +1996,10 @@
     }
 
     /* ------------ 4 ------------ */
+    #imgEst1Ft4{
+        top:48%;
+        left: 10%;
+    }
 
     #PlantaGra1Ft4{
         top: 26.8%;
@@ -1783,121 +2137,165 @@
 
 
     /* ------------ 6 ------------ */
+    #imgEst1Ft6{
+        top:30%;
+        left: 2%;
+        z-index: 2;
+    }
 
     #brazo61{
+        max-width: 50%;
+        top:36.9%;
+        left: 9.8%;
+        z-index: 4;
         animation: ft6-movi-1 2s alternate infinite ease-in;
     }
     #brazo62{
+        max-width: 50%;
+        top:36.5%;
+        left: 15.3%;
+        z-index: 1;
         animation: ft6-movi-2 2s alternate infinite ease-in;
     }
     #tierra61{
+        max-width: 40%;
+        top: 45%;
+        left: 28%;
+        z-index: 3;
         animation: ft6-movi-3 2s alternate infinite ease-in;
     }
     #tierra62{
+        max-width: 30%;
+        top:64%;
+        left: 58%;
+        z-index: 4;
         animation: ft6-movi-4 2s alternate infinite ease-in;
     }
 
     @keyframes ft6-movi-1 {
-        0%   {
+        100%   {
             transform: rotateZ(8deg);
-            top: 41%;
-            left: 7%;
+            top: 39.5%;
+            left: 8%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            top: 38.9%;
+            top:36.9%;
             left: 9.8%;
         }
     }
 
     @keyframes ft6-movi-2 {
-        0%   {
+        100%   {
             transform: rotateZ(8deg);
-            top: 41.4%;
-            left: 13.7%;
+            top: 38.8%;
+            left: 13.3%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            top: 38.4%;
+            top:36.4%;
             left: 15.3%;
         }
     }
 
     @keyframes ft6-movi-3 {
-        0%   {
+        100%   {
             transform: rotateZ(7deg);
-            top: 64%;
+            top: 62%;
             left: 59%;
             opacity: 0;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            top: 50%;
-            left: 33%;
+            top: 45%;
+            left: 28%;
             opacity: 1;
         }
     }
 
     @keyframes ft6-movi-4 {
-        0%   {
+        100%   {
             opacity: 1;
         }
-        100% {
+        0% {
             opacity: 0;
         }
     }
 
     /* ------------ 7 ------------ */
 
+    #imgEst1Ft7{
+        top:26%;
+        left: 10.3%;
+        z-index: 2;
+    }
+
     #brazo71{
+        max-width: 40%;
+        top:33.5%;
+        left: 32.1%;
+        z-index: 3;
         animation: ft7-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo72{
+        max-width: 10%;
+        top:32.5%;
+        left: 40%;
+        z-index: 1;
         animation: ft7-movi-2 2s alternate infinite ease-in;
     }
 
-    #barro74{
-        animation: ft7-movi-3 2s alternate infinite ease-in;
-    }
-
     #barro73{
+        max-width: 20%;
+        top:72%;
+        left: 53%;
+        z-index: 4;
         animation: ft7-movi-4 4s alternate infinite ease-in;
     }
 
+    #barro74{
+        max-width: 10%;
+        top:55%;
+        left: 60%;
+        z-index: 5;
+        animation: ft7-movi-3 2s alternate infinite ease-in;
+    }
+
     @keyframes ft7-movi-1 {
-        0%   {
+        100%   {
             transform: rotateZ(8deg);
-            top: 38%;
+            top: 35%;
             left: 30%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            top: 36.2%;
+            top:33.5%;
             left: 32.1%;
         }
     }
 
     @keyframes ft7-movi-2 {
-        0%   {
+        100%   {
             transform: rotateZ(8deg);
-            left: 39.3%;
+            left: 39%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            left: 41.5%;
+            top:32.5%;
+            left: 40%;
         }
     }
 
     @keyframes ft7-movi-3 {
-        0%   {
-            top: 81%;
+        100%   {
+            top: 75%;
             left: 58%;
             opacity: 0;
         }
-        100% {
-            top: 65%;
-            left: 59.3%;
+        0% {
+            top: 55%;
+            left: 60%;
             opacity: 1;
         }
     }
@@ -1913,57 +2311,97 @@
 
     /* ------------ 8 ------------ */
 
+    #imgEst1Ft8{
+        top:40%;
+        left: 10%;
+    }
+
+    #imgEst2Ft8{
+        top:31%;
+        left: 15%;
+    }
+
     #persona81{
+        max-width: 30%;
+        top:36%;
+        left: 40.4%;
+        z-index: 2;
         animation: ft8-movi-1 2s alternate infinite ease-in;
     }
     #persona82{
+        max-width: 10%;
+        top:45.5%;
+        left: 42%;
+        z-index: 1;
         animation: ft8-movi-2 2s alternate infinite ease-in;
     }
     #persona83{
-        animation: ft8-movi-3 4s alternate infinite ease-in;
+        max-width: 10%;
+        top: 59.8%;
+        left: 41%;
+        animation: ft8-movi-3 2s alternate infinite ease-in;
     }
 
     @keyframes ft8-movi-1 {
-        0%   {
-            transform: rotateZ(-12deg);
-            top: 37%;
-            left: 38.4%;
+        100%   {
+            transform: rotateZ(-15deg);
+            top: 38%;
+            left: 41.5%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
-            top: 35%;
-            left: 38%;
+            top: 36%;
+            left: 40.4%;
         }
     }
 
     @keyframes ft8-movi-2 {
-        0%   {
-            top: 62%;
-            left: 38%;
+        100%   {
+            top: 57%;
+            left: 41%;
             opacity: 0;
         }
-        100% {
-            top: 47.5%;
-            left: 37%;
+        0% {
+            top: 45.5%;
+            left: 42%;
             opacity: 1;
         }
     }
 
     @keyframes ft8-movi-3 {
-        0%   {
+        100%   {
             opacity: 1;
         }
-        100% {
+        0% {
             opacity: 0;
         }
     }
 
     /* ------------ 9 ------------ */
 
+    #imgEst1Ft9{
+        top:26%;
+        left: 10%;
+        z-index: 4;
+    }
+
+    #imgEst2Ft9{
+        max-width: 10%;
+        top:33%;
+        left: 82.3%;
+        z-index: 6;
+    }
+
     #brazo91{
-        animation: ft9-movi-1 1s alternate infinite ease-in;
+        top:32%;
+        left: 64%;
+        z-index: 1;
+        animation: ft9-movi-1 2s alternate infinite ease-in;
     }
     #brazo92{
+        top:32%;
+        left: 11%;
+        z-index: 5;
         animation: ft9-movi-2 2s alternate infinite ease-in;
     }
 
@@ -1980,45 +2418,59 @@
     @keyframes ft9-movi-2 {
         0%   {
             transform: rotateZ(6deg);
-            top: 31%;
+            top: 30%;
             left: 10%;
         }
         100% {
             transform: rotateZ(1deg);
-            top: 34%;
+            top: 32%;
             left: 11%;
         }
     }
 
     /* ------------ 10 ------------ */
 
+    #imgEst1Ft10{
+        top:20%;
+        left: 12%;
+        z-index: 4;
+    }
+
     #fruto102{
+        max-width: 15%;
+        top:24.5%;
+        left: 31%;
+        z-index: 3;
         animation: ft10-movi-1 2s alternate infinite ease-in;
     }
 
     #fruto101{
+        max-width: 5%;
+        top:30%;
+        left: 44%;
+        z-index: 5;
         animation: ft10-movi-2 2s alternate infinite ease-in;
     }
 
     @keyframes ft10-movi-1 {
-        0%   {
+        100%   {
             transform: rotateZ(1deg);
-            top: 31.5%;
-            left: 29.5%;
+            top: 28%;
+            left: 28%;
         }
-        100% {
+        0% {
             transform: rotateZ(-47deg);
-            top: 25.2%;
+            top: 24.5%;
             left: 31%;
         }
     }
 
     @keyframes ft10-movi-2 {
-        0%   {
-            top: 42.7%;
-            left: 38%;
+        100%   {
+            top: 38%;
+            left: 37%;
         }
-        100% {
+        0% {
             top: 30%;
             left: 44%;
         }
@@ -2026,159 +2478,242 @@
 
     /* ------------ 11 ------------ */
 
+    #imgEst1Ft11{
+        top:20%;
+        left: 10%;
+    }
+
+    #imgEst2Ft11{
+        max-width: 5%;
+        top:34%;
+        left: 44%;
+    }
+
+    #imgEst3Ft11{
+        max-width: 1.5%;
+        top: 39.7%;
+        left: 43.4%;
+        z-index: 4;
+    }
+
     #brazo111{
+        max-width: 25%;
+        top:36.5%;
+        left: 24%;
         animation: ft11-movi-1 2s alternate infinite ease-in;
     }
 
     #brazo112{
+        max-width: 15%;
+        top:33.5%;
+        left: 33%;
         animation: ft11-movi-2 2s alternate infinite ease-in;
     }
 
     #hoja113{
+        max-width: 1%;
+        top:42%;
+        left: 43%;
         animation: ft11-movi-3 2s alternate infinite ease-in;
     }
 
     @keyframes ft11-movi-1 {
-        0%   {
-            transform: rotateZ(10deg);
+        100%   {
+            transform: rotateZ(5deg);
+            top:36.5%;
+            left: 24%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
         }
     }
 
     @keyframes ft11-movi-2 {
-        0%   {
-            transform: rotateZ(-10deg);
+        100%   {
+            transform: rotateZ(-5deg);
+            top:33.5%;
+            left: 33%;
         }
-        100% {
+        0% {
             transform: rotateZ(1deg);
         }
     }
 
     @keyframes ft11-movi-3 {
-        0%   {
+        100%   {
             opacity: 0;
-            top: 85%;
+            top: 63%;
         }
-        100% {
+        0% {
             opacity: 1;
-            top: 50%;
+            top:42%;
+            left: 43%;
         }
     }
 
     /* ------------ 12 ------------ */
 
+    #imgEst1Ft12{
+        max-width: 70%;
+        top:20%;
+        left: 10%;
+    }
+
     #brazo121{
+        max-width: 33%;
+        top:24.2%;
+        left: 38.9%;
         animation: ft12-movi-1 2s alternate infinite ease-in;
     }
     @keyframes ft12-movi-1 {
         0%   {
-            transform: rotateZ(12deg);
-            top: 25.2%;
-            left: 42.2%;
+            transform: rotateZ(7deg);
+            top:23.2%;
+            left: 38.1%;
         }
         100% {
             transform: rotateZ(1deg);
-            top: 27.5%;
-            left: 43.5%;
+            top:24.2%;
+            left: 38.9%;
         }
     }
 
     /* ------------ 13 ------------ */
 
+    #imgEst1Ft13{
+        top:30%;
+        left:10%;
+        z-index: 4;
+    }
+
+    #imgEst2Ft13{
+        max-width: 30%;
+        top:25%;
+        left: 23%;
+        z-index: 1;
+    }
+
     #maskagua131{
+        max-width: 23%;
+        top:26.5%;
+        left:26.5%;
+        z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
     }
 
     #maskagua132{
+        max-width: 27%;
+        top:38.7%;
+        left:28.5%;
+        z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
     }
 
     #maskagua133{
+        max-width: 33%;
+        top:51.5%;
+        left:39%;
+        z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
     }
 
     @keyframes ft13-movi-1 {
-        0%   {
-            transform: scale(1.3);
-            top: 29.8%;
+        100%   {
+            transform: scale(1);
+            top: 26.5%;
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 32.3%;
+            top:26.5%;
+            left:26.5%;
         }
     }
 
     @keyframes ft13-movi-2 {
-        0%   {
-            transform: scale(1.9);
-            top: 45.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 49.3%;
+            top:38.7%;
+            left:28.5%;
         }
     }
 
     @keyframes ft13-movi-3 {
-        0%   {
-            transform: scale(2.2);
-            top: 64.1%;
+        100%   {
+            transform: scale(1);
         }
-        100% {
+        0% {
             transform: scale(0);
-            top: 69.6%;
+            top:51.5%;
+            left:39%;
         }
     }
 
     /* ------------ 14 ------------ */
 
+    #imgEst1Ft14{
+        top:17%;
+        left: 10%;
+    }
+
     #brazo141{
+        max-width: 19%;
+        top:45%;
+        left:55.8%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
     }
 
     @keyframes ft14-movi-1 {
         0%   {
             transform: rotateZ(12deg);
-            top: 54.4%;
-            left: 55.7%;
+            top:44%;
+            left:55.4%;
         }
         100% {
             transform: rotateZ(1deg);
-            top: 55.4%;
-            left: 56.2%;
+            top:45%;
+            left:55.8%;
         }
     }
 
     /* ------------ 15 ------------ */
 
+    #imgEst1Ft15{
+        max-width: 70%;
+        top:38%;
+        left: 12%;
+    }
     #humo151{
+        top:22%;
+        left:41%;
         animation: ft15-movi-1 2s alternate infinite ease-in;
     }
 
     @keyframes ft15-movi-1 {
-        0%   {
+        100%   {
             top: 10%;
-            left: 44%;
+            left:41%;
             opacity: 0;
         }
-        100% {
+        0% {
             top: 22%;
-            left: 44%;
+            left:41%;
             opacity: 1;
         }
     }
 
 }
+
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px)  {
     .grid-sub-container{
+        /*
         background-color: pink !important;
+         */
     }
 }
-
-
 
 #tierra62{
     opacity:0;
