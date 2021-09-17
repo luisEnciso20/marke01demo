@@ -1667,13 +1667,16 @@
 	}
 	.tituloCuadrado{
 		font-size: 35pt;
-    	line-height: 30pt;
+    	line-height: 35pt;
+		text-align: left;
 	}
 	.respon-textito1{
 		padding: 0px 20px !important;
+		height: 650px !important;
 	}
 	.respon-textito2{
 		padding: 0px 20px !important;
+		height: 530px !important;
 	}
 	.imagen1{
 		height: 380px !important;
@@ -1695,7 +1698,7 @@
     }
 
     #sec1{
-        height: 1100px !important;
+        height: 1000px !important;
         max-width: 400px !important;
     }
 
