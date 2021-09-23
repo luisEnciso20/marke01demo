@@ -162,7 +162,7 @@
         animation: ft4-movi-1 2s alternate infinite ease-in;
     }
     #PlantaGra2Ft4{
-        top:10%;
+        top:15%;
         left: 40.5%;
         z-index: 1;
         animation: ft4-movi-2 2s alternate infinite ease-in;
@@ -457,7 +457,7 @@
     /* ------------ 8 ------------ */
 
     #imgEst1Ft8{
-        top:40%;
+        top:43.5%;
         left: 10%;
     }
 
@@ -1716,7 +1716,7 @@
         max-width: 400px !important;
     }
     #sec3img{
-        height: 550px !important;
+        height: 500px !important;
     }
     #sec3img1{
         height: 1000px !important;
@@ -1728,7 +1728,7 @@
         width: 400px !important;
     }
     #sec4img1{
-        height: 550px !important;
+        height: 500px !important;
     }
     #sec4img2{
         height: 850px !important;
@@ -1752,7 +1752,7 @@
         max-width: 400px !important;
     }
     #sec6img1{
-        height: 550px !important;
+        height: 300px !important;
     }
     #sec6img2{
         height: 1050px !important;
@@ -1764,7 +1764,7 @@
         max-width: 400px !important;
     }
     #sec7img1{
-        height: 550px !important;
+        height: 400px !important;
     }
     #sec7img2{
         height: 1200px !important;
@@ -1776,7 +1776,7 @@
         max-width: 400px !important;
     }
     #sec8img1{
-        height: 550px !important;
+        height: 350px !important;
     }
     #sec8img2{
         height: 900px !important;
@@ -1788,7 +1788,7 @@
         max-width: 400px !important;
     }
     #sec9img1{
-        height: 550px !important;
+        height: 350px !important;
     }
     #sec9img2{
         height: 1100px !important;
@@ -1800,7 +1800,7 @@
         max-width: 400px !important;
     }
     #sec10img1{
-        height: 550px !important;
+        height: 400px !important;
     }
     #sec10img2{
         height: 900px !important;
@@ -1813,7 +1813,7 @@
         width: 400px !important;
     }
     #sec11img1{
-        height: 550px !important;
+        height: 400px !important;
     }
     #sec11img2{
         height: 900px !important;
@@ -1825,7 +1825,7 @@
         width: 400px !important;
     }
     #sec12img1{
-        height: 550px !important;
+        height: 380px !important;
     }
     #sec12img2{
         height: 980px !important;
@@ -1837,7 +1837,7 @@
         max-width: 400px !important;
     }
     #sec13img1{
-        height: 550px !important;
+        height: 380px !important;
     }
     #sec13img2{
         height: 950px !important;
@@ -1849,7 +1849,7 @@
         max-width: 400px !important;
     }
     #sec14img1{
-        height: 550px !important;
+        height: 400px !important;
     }
     #sec14img2{
         height: 750px !important;
@@ -1861,10 +1861,10 @@
         max-width: 400px !important;
     }
     #sec15img1{
-        height: 500px !important;
+        height: 300px !important;
     }
     #sec15img2{
-        height: 1060px !important;
+        height: 1150px !important;
     }
 
     .grid-container{
@@ -1949,6 +1949,7 @@
     }
     #img2Ft3{
         max-width: 50%;
+		top: 29% !important;
     }
     #img3Ft3{
         max-width: 70%;
@@ -1958,14 +1959,14 @@
 
     #mano1Ft3{
         max-width: 50%;
-        top: 31%;
+        top: 33.8% !important;
         left: 34%;
         z-index: 2;
         animation: ft3-movi-1 2s alternate infinite ease-in;
     }
     #mano2Ft3{
         max-width: 50%;
-        top:31%;
+        top:31.8% !important;
         left: 21%;
         z-index: 4;
         animation: ft3-movi-2 2s alternate infinite ease-in;
@@ -2000,12 +2001,12 @@
 
     /* ------------ 4 ------------ */
     #imgEst1Ft4{
-        top:48%;
+        top:65%;
         left: 10%;
     }
 
     #PlantaGra1Ft4{
-        top: 26.8%;
+        top: 41%;
         left: 32%;
         z-index: 2;
         animation: ft4-movi-1 2s alternate infinite ease-in;
@@ -2017,17 +2018,17 @@
         animation: ft4-movi-2 2s alternate infinite ease-in;
     }
     #Planta1Ft4{
-        top:46%;
+        top:60%;
         left: 17.1%;
         animation: ft4-movi-3 2s alternate infinite ease-in;
     }
     #Planta2Ft4{
-        top:58.7%;
+        top:75%;
         left: 12.8%;
         animation: ft4-movi-4 2s alternate infinite ease-in;
     }
     #Planta3Ft4{
-        top:58.7%;
+        top:75%;
         left: 65%;
         animation: ft4-movi-5 2s alternate infinite ease-in;
     }
@@ -2083,8 +2084,8 @@
         left: 10%;
     }
     #arbolFt5{
-        max-width: 65%;
-        top:2.2%;
+        max-width: 60%;
+        top:5%;
         left: 4.1%;
         animation: ft5-movi-1 2s alternate infinite ease-in;
     }
@@ -2100,7 +2101,7 @@
         animation: ft5-movi-3 2s alternate infinite ease-in;
     }
     #planta2Ft5{
-        top:63%;
+        top:64%;
         left: 79%;
         animation: ft5-movi-4 2s alternate infinite ease-in;
     }
@@ -2141,28 +2142,28 @@
 
     /* ------------ 6 ------------ */
     #imgEst1Ft6{
-        top:30%;
+        top:15%;
         left: 2%;
         z-index: 2;
     }
 
     #brazo61{
         max-width: 50%;
-        top:36.9%;
+        top:29% !important;
         left: 9.8%;
         z-index: 4;
         animation: ft6-movi-1 2s alternate infinite ease-in;
     }
     #brazo62{
         max-width: 50%;
-        top:36.5%;
+        top:30% !important;
         left: 15.3%;
         z-index: 1;
         animation: ft6-movi-2 2s alternate infinite ease-in;
     }
     #tierra61{
         max-width: 40%;
-        top: 45%;
+        top: 40%;
         left: 28%;
         z-index: 3;
         animation: ft6-movi-3 2s alternate infinite ease-in;
@@ -2210,7 +2211,7 @@
         }
         0% {
             transform: rotateZ(1deg);
-            top: 45%;
+            top: 40%;
             left: 28%;
             opacity: 1;
         }
@@ -2228,7 +2229,7 @@
     /* ------------ 7 ------------ */
 
     #imgEst1Ft7{
-        top:26%;
+        top:22%;
         left: 10.3%;
         z-index: 2;
     }
@@ -2259,7 +2260,7 @@
 
     #barro74{
         max-width: 10%;
-        top:55%;
+        top:62%;
         left: 60%;
         z-index: 5;
         animation: ft7-movi-3 2s alternate infinite ease-in;
@@ -2297,7 +2298,7 @@
             opacity: 0;
         }
         0% {
-            top: 55%;
+            top: 62%;
             left: 60%;
             opacity: 1;
         }
@@ -2315,32 +2316,32 @@
     /* ------------ 8 ------------ */
 
     #imgEst1Ft8{
-        top:40%;
+        top:43%;
         left: 10%;
     }
 
     #imgEst2Ft8{
-        top:31%;
+        top:27%;
         left: 15%;
     }
 
     #persona81{
         max-width: 30%;
-        top:36%;
+        top:37.2%;
         left: 40.4%;
         z-index: 2;
         animation: ft8-movi-1 2s alternate infinite ease-in;
     }
     #persona82{
         max-width: 10%;
-        top:45.5%;
+        top:52.2%;
         left: 42%;
         z-index: 1;
         animation: ft8-movi-2 2s alternate infinite ease-in;
     }
     #persona83{
         max-width: 10%;
-        top: 59.8%;
+        top: 75%;
         left: 41%;
         animation: ft8-movi-3 2s alternate infinite ease-in;
     }
@@ -2348,24 +2349,24 @@
     @keyframes ft8-movi-1 {
         100%   {
             transform: rotateZ(-15deg);
-            top: 38%;
+            top: 40%;
             left: 41.5%;
         }
         0% {
             transform: rotateZ(1deg);
-            top: 36%;
+            top: 37.2%;
             left: 40.4%;
         }
     }
 
     @keyframes ft8-movi-2 {
         100%   {
-            top: 57%;
-            left: 41%;
+            top: 65%;
+            left: 42%;
             opacity: 0;
         }
         0% {
-            top: 45.5%;
+            top: 52.2%;
             left: 42%;
             opacity: 1;
         }
@@ -2383,7 +2384,7 @@
     /* ------------ 9 ------------ */
 
     #imgEst1Ft9{
-        top:26%;
+        top:25%;
         left: 10%;
         z-index: 4;
     }
@@ -2434,7 +2435,7 @@
     /* ------------ 10 ------------ */
 
     #imgEst1Ft10{
-        top:20%;
+        top:19%;
         left: 12%;
         z-index: 4;
     }
@@ -2458,8 +2459,8 @@
     @keyframes ft10-movi-1 {
         100%   {
             transform: rotateZ(1deg);
-            top: 28%;
-            left: 28%;
+            top: 30%;
+            left: 27%;
         }
         0% {
             transform: rotateZ(-47deg);
@@ -2470,7 +2471,7 @@
 
     @keyframes ft10-movi-2 {
         100%   {
-            top: 38%;
+            top: 43%;
             left: 37%;
         }
         0% {
@@ -2482,7 +2483,7 @@
     /* ------------ 11 ------------ */
 
     #imgEst1Ft11{
-        top:20%;
+        top:14%;
         left: 10%;
     }
 
@@ -2494,8 +2495,8 @@
 
     #imgEst3Ft11{
         max-width: 1.5%;
-        top: 39.7%;
-        left: 43.4%;
+        top: 41%;
+        left: 42.8%;
         z-index: 4;
     }
 
@@ -2558,7 +2559,7 @@
 
     #imgEst1Ft12{
         max-width: 70%;
-        top:20%;
+        top:19%;
         left: 10%;
     }
 
@@ -2598,7 +2599,7 @@
 
     #maskagua131{
         max-width: 23%;
-        top:26.5%;
+        top:27%;
         left:26.5%;
         z-index: 3;
         animation: ft13-movi-1 3s alternate infinite ease-in;
@@ -2606,7 +2607,7 @@
 
     #maskagua132{
         max-width: 27%;
-        top:38.7%;
+        top:42.5%;
         left:28.5%;
         z-index: 4;
         animation: ft13-movi-2 3s alternate infinite ease-in;
@@ -2614,7 +2615,7 @@
 
     #maskagua133{
         max-width: 33%;
-        top:51.5%;
+        top:61%;
         left:39%;
         z-index: 5;
         animation: ft13-movi-3 3s alternate infinite ease-in;
@@ -2623,11 +2624,11 @@
     @keyframes ft13-movi-1 {
         100%   {
             transform: scale(1);
-            top: 26.5%;
+            top: 27%;
         }
         0% {
             transform: scale(0);
-            top:26.5%;
+            top:27%;
             left:26.5%;
         }
     }
@@ -2638,7 +2639,7 @@
         }
         0% {
             transform: scale(0);
-            top:38.7%;
+            top:42.5%;
             left:28.5%;
         }
     }
@@ -2649,7 +2650,7 @@
         }
         0% {
             transform: scale(0);
-            top:51.5%;
+            top:61%;
             left:39%;
         }
     }
@@ -2657,13 +2658,13 @@
     /* ------------ 14 ------------ */
 
     #imgEst1Ft14{
-        top:17%;
+        top:20%;
         left: 10%;
     }
 
     #brazo141{
         max-width: 19%;
-        top:45%;
+        top:57% !important;
         left:55.8%;
         animation: ft14-movi-1 2s alternate infinite ease-in;
     }
@@ -2685,7 +2686,7 @@
 
     #imgEst1Ft15{
         max-width: 70%;
-        top:38%;
+        top:49%;
         left: 12%;
     }
     #humo151{
